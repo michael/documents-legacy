@@ -1,20 +1,15 @@
 # Knight News Challenge Entry
 
 ## 1. What do you propose to do? [20 words]
-Substance [1] is an open platform for collaboratively composing and publishing digital documents. All online.
+Substance [1] is an open platform for collaborative composition and publication of digital documents online.
 
 - [1] http://substance.io
 
-
 ## 2. How will your project make data more useful? [50 words]
 
-- Semantic Editing: Focus on content and structured, content-oriented writing.
-
-- Open Collaboration: Everyone can participate by adding comments and submitting patches.
-
-- Create once, publish everywhere: Documents are exposed as data, ready to be turned into arbitrary output formats (PDF,ePub, ...) or integrated with other applications.
-
-- Extensibility: Additional content types (formulas, maps, etc.) can easily be added by the community.
+Everyone can contribute to the data by adding comments, submitting patches.
+Documents are exposed as data, ready to be analyzed, visualized, turned into arbitrary output formats (PDF,ePub, ...) or integrated with other applications.
+Additional content types (formulas, maps, etc.) can easily be added by the community.
 
 
 ## 3. How is your project different from what already exists? [30 words]
@@ -24,7 +19,7 @@ Substance considers content as data, which allows for interesting things like se
 
 ## 4. Why will it work? [100 words]
 
-It works already. It just takes a serious amount of time to make it solid and reliable. Substance at times has ~ 5000 registered users, and 750 watchers on Github.
+Substance already works. It just takes a serious amount of time to make it solid and reliable. Substance at times has ~ 5000 registered users, and 750 watchers on Github.
 
 
 ## 5. Who is working on it? [100 words]
@@ -36,7 +31,7 @@ Michael Aufreiter is the original initiator of this project, and working on it s
 
 ## 6. What part of the project have you already built? [100 words]
 
-There's a reference implementation available at Substance.io. The system is split into several independent components [1,2,3,4] that can be used independently. There will even more useful components 
+There's a reference implementation available at Substance.io. The system is split into several independent components [1,2,3,4] that can be used independently. Even more useful components will eventually become part of the toolset in the future.
 
 - [1] http://github.com/substance
 - [2] http://github.com/michael/data
