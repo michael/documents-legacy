@@ -55,7 +55,7 @@ We'll be building an open source technology stack, not a product. We'll be provi
 
 ## 8. How would you sustain the project after the funding expires? [50 words]
 
-Substance has been around for 1.5 years now, built and used by passionate open source developers all around the world. We'll continue improving it, making it an open standard for interoperable digital publishing.
+Substance has been around for 1.5 years now, built and used by passionate open source developers all around the world. Zero funding involved so far. We'll continue improving it, making it an open standard for interoperable digital publishing.
 
 - Requested amount: 190,000 (every dollar helps, with 190,000 we can guaratee a reliable build)
 - Expected number of months to complete project: 6 months for a working prototype, 1 year to complete a reliable build.
