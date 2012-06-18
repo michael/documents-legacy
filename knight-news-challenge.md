@@ -29,7 +29,7 @@ It works already. It just takes a serious amount of time to make it solid and re
 
 ## 5. Who is working on it? [100 words]
 
-Michael Aufreiter is the original initiator of this project, and working on it since November 2010. He got precious help by numerous of contributors [1], all professional developers and designers (currently ~ 6 active contributors). They are ready to invest more time if it can be backed financially.
+Michael Aufreiter is the original initiator of this project, and working on it since November 2010. He got precious help by numerous of contributors [1], all professional developers and designers (currently ~ 6 active contributors). They are all ready to invest more time if it can be backed financially.
 
 - [1] https://github.com/substance/substance#contributors
 
