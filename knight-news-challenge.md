@@ -5,6 +5,7 @@ Substance [1] is an open platform for collaboratively composing and publishing d
 
 - [1] http://substance.io
 
+
 ## 2. How will your project make data more useful? [50 words]
 
 - Semantic Editing: Focus on content and structured, content-oriented writing.
@@ -13,21 +14,25 @@ Substance [1] is an open platform for collaboratively composing and publishing d
 
 - Create once, publish everywhere: Documents are exposed as data, ready to be turned into arbitrary output formats (PDF,ePub, ...) or integrated with other applications.
 
-- Extensibility: Additional content types (formulas, maps) can be added by the community.
+- Extensibility: Additional content types (formulas, maps, etc.) can easily be added by the community.
+
 
 ## 3. How is your project different from what already exists? [30 words]
 
 Substance considers content as data, which allows for interesting things like semantic data analysis. Imagine you can query documents like a database. With Substance you can.
 
+
 ## 4. Why will it work? [100 words]
 
 It works already. It just takes a serious amount of time to make it solid and reliable. Substance at times has ~ 5000 registered users, and 750 watchers on Github.
+
 
 ## 5. Who is working on it? [100 words]
 
 Michael Aufreiter is the original initiator of this project, and working on it since November 2010. He got precious help by numerous of contributors [1], all professional developers and designers (currently ~ 6 active contributors). They are ready to invest more time if it can be backed financially.
 
 - [1] https://github.com/substance/substance#contributors
+
 
 ## 6. What part of the project have you already built? [100 words]
 
@@ -40,12 +45,13 @@ There's a reference implementation available at Substance.io. The system is spli
 
 ## 7. How would you use News Challenge funds? [50 words]
 
-Substance is intended to be an open source technology stack [1], rather than a product. We realized that it's impossible to create a content composition tool that works across domains (Scientists, Journalists, etc.). By defining a generic extensible architecture, technically versed users will be able to customize their build and in turn contribute to whole platform.
+We'll be building an open source technology stack, not a product. We'll be providing a generic extensible architecture [1], involving an extensible document format and protocol [2], realtime synchronization [3], a framework for building content composition tools for the browser [4] as well as a reference implementation [5].
 
-We already proposed a new architecture for Substance, to solve the issues with the current implementation and to turn it into a flexible toolset anyone can use and customize.
-
-Our new take will feature a generic document format including a protocol for document manipulation, realtime synchronization based on Operational Transformation, a scaleable flexible storage and messaging mechanism, as well as a framework for building content composition tools for the browser.
-
+- [1] http://github.com/substance/architecture
+- [2] http://github.com/substance/document
+- [3] http://ot.substance.io
+- [4] http://github.com/substance/composer
+- [5] http://substance.io
 
 ## 8. How would you sustain the project after the funding expires? [50 words]
 
