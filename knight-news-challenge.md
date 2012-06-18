@@ -7,9 +7,9 @@ Substance [1] is an open platform for collaboratively composing and publishing d
 
 ## 2. How will your project make data more useful? [50 words]
 
-- Semantic Editing: Substance focusses on content and suggests structured, content-oriented writing.
+- Semantic Editing: Focus on content and structured, content-oriented writing.
 
-- Collaboration: Substance enables open collaboration. Everyone can participate by adding comments and submitting patches.
+- Open Collaboration: Everyone can participate by adding comments and submitting patches.
 
 - Create once, publish everywhere: Documents are exposed as data, ready to be turned into arbitrary output formats (PDF,ePub, ...) or integrated with other applications.
 
@@ -25,10 +25,9 @@ It works already. It just takes a serious amount of time to make it solid and re
 
 ## 5. Who is working on it? [100 words]
 
-Michael Aufreiter is the original initiator of this project, and working on it since November 2010. He got precious help by a number of contributors [1], all professional developers and designers (~ 6 persons at time). They are ready to invest more time if they're financially covered.
+Michael Aufreiter is the original initiator of this project, and working on it since November 2010. He got precious help by numerous of contributors [1], all professional developers and designers (currently ~ 6 active contributors). They are ready to invest more time if it can be backed financially.
 
 - [1] https://github.com/substance/substance#contributors
-
 
 ## 6. What part of the project have you already built? [100 words]
 
