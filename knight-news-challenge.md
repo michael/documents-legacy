@@ -1,13 +1,13 @@
 # Knight News Challenge Entry
 
 ## 1. What do you propose to do? [20 words]
-Substance [1] is an open platform for collaborative composition and publication of digital documents online.
+Substance [1] is an open platform for collaborative composition and publication of digital documents, adressing journalists, writers and scientists.
 
 - [1] http://substance.io
 
 ## 2. How will your project make data more useful? [50 words]
 
-Everyone can contribute to the data by adding comments, submitting patches.
+Everyone can contribute to the data by adding comments or submitting patches.
 Documents are exposed as data, ready to be analyzed, visualized, turned into arbitrary output formats (PDF,ePub, ...) or integrated with other applications.
 Additional content types (formulas, maps, etc.) can easily be added by the community.
 
@@ -24,7 +24,7 @@ Substance already works. It just takes a serious amount of time to make it solid
 
 ## 5. Who is working on it? [100 words]
 
-Michael Aufreiter is the original initiator of this project, and working on it since November 2010. He got precious help by numerous of contributors [1], all professional developers and designers (currently ~ 6 active contributors). They are all ready to invest more time if it can be backed financially.
+Michael Aufreiter is the original author of this project, and working on it since November 2010. He got precious help by numerous contributors [1], all professional developers or designers (currently ~ 6 people). They are all ready to invest more time if it can be backed financially.
 
 - [1] https://github.com/substance/substance#contributors
 
@@ -50,7 +50,7 @@ We'll be building an open source technology stack, not a product. We'll be provi
 
 ## 8. How would you sustain the project after the funding expires? [50 words]
 
-Substance has been around for 1.5 years now, built and used by passionate open source developers all around the world. Zero funding involved so far. We'll continue improving it, making it an open standard for interoperable digital publishing.
+Substance has been around for 1.5 years now, built and used by passionate open source developers all around the world. There was no funding involved so far. We'll continue improving it, making it an open standard for interoperable digital publishing.
 
 - Requested amount: 190,000 (every dollar helps, with 190,000 we can guaratee a reliable build)
 - Expected number of months to complete project: 6 months for a working prototype, 1 year to complete a reliable build.
