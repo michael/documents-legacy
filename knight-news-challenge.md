@@ -7,14 +7,12 @@ Substance [1] is an open platform for collaborative composition and publication 
 
 ## 2. How will your project make data more useful? [50 words]
 
-Everyone can contribute to the data by adding comments or submitting patches.
-Documents are exposed as data, ready to be analyzed, visualized, turned into arbitrary output formats (PDF,ePub, ...) or integrated with other applications.
-Additional content types (formulas, maps, etc.) can easily be added by the community.
+Everyone can contribute to a document by adding comments, submitting patches. Documents are exposed as data, ready to be analyzed, visualized, turned into arbitrary output formats (PDF,ePub, ...) or integrated with other applications. Additional content types (formulas, maps, etc.) can easily be added by the community.
 
 
 ## 3. How is your project different from what already exists? [30 words]
 
-Substance considers content as data, which allows for interesting things like semantic data analysis. Imagine you can query documents like a database. With Substance you can.
+Substance considers content as data, which allows for interesting things like semantic data analysis or novel visualizations. Imagine you can query documents like a database. With Substance you can.
 
 
 ## 4. Why will it work? [100 words]
@@ -33,7 +31,7 @@ Michael Aufreiter is the original author of this project, and working on it sinc
 
 There's a reference implementation available at Substance.io. The system is split into several independent components [1,2,3,4] that can be used independently. Even more useful components will eventually become part of the toolset in the future.
 
-- [1] http://github.com/substance
+- [1] http://github.com/substance/substance
 - [2] http://github.com/michael/data
 - [3] http://github.com/substance/letterpress
 
