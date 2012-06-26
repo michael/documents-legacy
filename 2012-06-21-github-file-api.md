@@ -2,8 +2,6 @@ Hi Github,
 
 we're working on [Prose](http://prose.io), a visual interface to manage the contents of Jekyll websites (or regular repositories). We're using the Github APIv3 for doing that. So first off, thanks for providing Jekyll and Github Pages as well as the Github API.
 
-![Prose](http://f.cl.ly/items/2b1x3N2j2v1T0M3M291H/Screen%20Shot%202012-06-12%20at%203.10.19%20PM.png)
-
 
 We created our own client-side abstraction, Github.js for reading and manipulating files in a Github Repo using the Github API. It’s intended for exactly our use case, namely interacting with Github from the browser. It supports reading, writing, renaming and deleting files.
 
