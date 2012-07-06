@@ -16,7 +16,7 @@ We've added routes to access user profiles as well.
 
 ![](http://f.cl.ly/items/0M1P2z280X0X01023W32/user-profile.png)
 
-Organizations and users can easily be accessed by using an URL.
+Organizations and users can be accessed by URL directly. We're using the same url scheme as GitHub.
 
 - `http://prose.io/#developmentseed`
 - `http://prose.io/#michael`
@@ -28,12 +28,13 @@ Although Prose is primarily an editor for Markdown files, many users found it to
 
 ![](http://f.cl.ly/items/3l1h3R0E2R311L3a3341/syntax-highlighting.png)
 
+
 # Bugfixes and smaller improvements
 
 Here's a complete list of bugfixes and smaller improvements we've made.
 
 - We now use the same URL schemes as Github, to have explit routes for editing and previewing files
 - Upgraded CodeMirror to Version 2.3
-- Loading indicator for posts
+- Addded loading indicator for posts
 - Fixed a problem with UTF-8 characters
 - Handle binary files (e.g. images are previewed by default and not longer loaded into the editing interface)
