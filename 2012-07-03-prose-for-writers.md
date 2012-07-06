@@ -1,23 +1,23 @@
-[Prose](http://prose.io) is not only suitable for managing website contents. You can use it as a full-featured writing environment too. It gives you a distraction free writing experience, with a focus on content and structure. Also you can share your work at any time or invite other people to collaborate on your document.
+[Prose](http://prose.io) is not only suitable for managing website content. You can use it as a full-featured writing environment too. It provides you a distraction-free writing experience, with a focus on content and structure. Also, you can share your work at any time or invite other people to collaborate on your document. 
 
+Here's what you need to get started.
 
 ### Create a new Github Repository
 
-Make sure there's at least one branch available. The easiest way to do it, is initializing a new Github Repository.
+This will be the home of your documents. Make sure there's at least one branch available. The easiest way to do it, is by initializing a new GitHub Repository. Keep in mind, this is a plain old GitHub repository, there's no need for setting up Jekyll.
 
 {screenshot new repo on github}
 
 
 ### Start writing
 
-Click on "New File" enter text in markdown. And hit save.
+Open your fresh repository in prose and start writing your first document. To do so, click on "New File" enter some text in markdown. And hit save.
 
-(screenshot)
-
+{screenshot hello world}
 
 ## Remember every change
 
-Only changes are stored on every save. You can access older versions of your document using Github. In future we'll allow you to do that right within Prose.
+Only changes are stored on every save. Thanks to git you can access older versions of your document using [GitHub](https://github.com/prose/documents/commits/master). In future we'll allow you to access them right within Prose. Just give us some more time please. :)
 
 {screenshot to git Changeset}
 
@@ -27,9 +27,15 @@ Only changes are stored on every save. You can access older versions of your doc
 If your co-workers haven't created a Github Account yet. Now they have a new reason. Permissions are totally transparent to Github. So what you need to do is 
 Let others collaborate.
 
+{screenshot to invite collaborators}
+
 ### Share your work
 
-Make sure your repository is public and just share the URL of the post. Readers will always see the most up to date version. So if you or some of your collaborators makes a change, it will immediately be visible.
+Make sure your repository is public and just share the URL of the post. Readers will always see the most up to date version. So if you or some of your collaborators makes a change, it will immediately be visible. Just point them to the appropriate URL for either editing, or viewing the document.
+
+- `http://prose.io/#prose/documents/blob/master/articles/hello-world.md`
+- `http://prose.io/#prose/documents/edit/master/articles/hello-world.md`
+
 
 
 ### Turn it into a website
