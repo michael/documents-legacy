@@ -3,7 +3,7 @@
 Without further ado.. here's a list of features (roughly ordered by priority) that would make sense for the next Prose release.
 adsfasdf
 
-testing. asdfadsfadsfaasdfsdaf"
+testing. asdfadsfadsfaasdfsdaf
 
 ## Improved frontmatter (1 - 4 days)
 
@@ -12,7 +12,7 @@ The way the frontmatter works is not ideal yet. We have to options here:
 - A rather quick one to get deeply nested YAML right (using block literals as Dave suggested ...) 
 - Or just invest some more time to really improve UX (Alex created a ticket for that). I could think of displaying key/value pairs so we have a separate input field for each value. I think this would be less error prone than the plaintext YAML version, but indeed involve more time to be implemented, tested and deployed. Approximately 3-4 days.
 
-## Commit Messages (~ 1 day)
+## Commit Messages ( 1 day)
 
 Let's bring an optional commit message in. This is technically super easy, just a matter of a good UI/UX solution. We don't want to force people to add a custom commit message, but they should be able to do it. Should be done in ~ 1 day.
 
