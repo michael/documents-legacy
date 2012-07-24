@@ -3,6 +3,4 @@
 Enter Text in Markdown format.
 
 
-
-
 hallo ~ 
