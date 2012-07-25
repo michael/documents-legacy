@@ -22,7 +22,7 @@ Organizations and users can be accessed by URL directly. We're using the same ur
 - `http://prose.io/#michael`
 
 
-
+% 
 # Syntax Highlighting
 
 Although Prose is primarily an editor for Markdown files, many users found it to be useful for editing source code files as well. We've added syntax highling for a range of programming languages to make this task even easier.
