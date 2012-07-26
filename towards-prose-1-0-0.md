@@ -36,11 +36,11 @@ This is probably one of the most interesting features we can offer to the GitHub
 
 # Time estimation
 
-I think we'll range in a 2-3 week scope, depending on what we wanna implement and how much resources we can invest. Here's a breakdown on efforts of the possibly involved people:
+I think we'll range in a 2-4 week scope, depending on what we wanna implement and how much resources we can/want invest. Here's a breakdown on efforts of the possibly involved people:
 
 ### Michael 
 
-2-3 more weeks, until we hit that stable-point.
+2-4 more weeks, until we hit that stable-point.
 
 - implementing the new UI/UX-related improvements
 - code refactoring and removing redundant pieces now that all features are in place
