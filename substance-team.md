@@ -14,8 +14,9 @@ Focus on:
 
 Other references
 
-- http://askken.heroku.com/
-
+- [ASK KEN](http://askken.heroku.com/) - A Visual Knowledge Browser
+- [Prose](http://prose.io/) - A Content Editor for GitHub
+- [Dejavis](http://dejavis.org) - Visual Analytics for the Browser
 
 ## Oliver Buchtala
 
@@ -47,4 +48,5 @@ Focus on:
 
 Projects:
 
-- Gearbox
+- A
+- B
