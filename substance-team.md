@@ -12,6 +12,10 @@ Focus on:
 - [Substance Composer](http://substance.github.com/modules/composer.html) - The document editor
 - [Substance Talk](http://substance.github.com/modules/talk.html) - A JSON-based data exchange prototcol
 
+Other references
+
+- http://askken.heroku.com/
+
 
 ## Oliver Buchtala
 
@@ -25,13 +29,22 @@ Focus on:
 - [Substance Library](http://substance.github.com/modules/library.html)
 
 
+Projects:
+
+- Gearbox
+
 
 ## Victor Saiz
 
-Victor joined the team this spring. He's been working on the most challenging part, namely web-based content editing. We're moving away from our previous approach using contenteditable (a browser-native interface) to our our very own implementation (Substance Surface) that allows us to build components like Substance Text and the Substance composer, offering arbitrary complex annotations. Victor has a music production background 
+Victor joined the team this spring. He's been working on the most challenging part, namely web-based content editing. We're moving away from our previous approach using contenteditable (a browser-native interface) to our our very own implementation (Substance Surface) that allows us to build components like Substance Text and the Substance composer, offering arbitrary complex annotations. Victor has a music production background and but is focussed doing web-development for quite some years.
 
 
 Focus on:
 
 - [Substance Surface](http://substance.github.com/modules/surface.html)
 - [Substance Text](http://substance.github.com/modules/text.html)
+
+
+Projects:
+
+- Gearbox
