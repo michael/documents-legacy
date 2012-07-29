@@ -50,4 +50,4 @@ Projects:
 
 - [Helly Hansen Norway](http://hellyhansen.com/) - Full rewrite incl. shop with product faceted navigation (v.2010/2011).
 - [FryTuner](http://mortensen.co/projects/fry-player/) - Server based music player for retail stores and restaurants.
-- Ericsson Brand Analytics visualizer – Interactive presentation tool that visualizes the company's figures in comparison to its major competitors – per country/region – on a yearly basis. This tools is fully built with web technologies.
+- Ericsson Brand Analytics visualizer – Interactive presentation tool that visualizes the company's figures in comparison to its major competitors – per country/region – on a yearly basis from live data.
