@@ -36,7 +36,8 @@ Projects:
 
 ## Victor Saiz
 
-Victor joined the team this spring. He's been working on the most challenging part, namely web-based content editing. We're moving away from our previous approach using contenteditable (a browser-native interface) to our our very own implementation (Substance Surface) that allows us to build components like Substance Text and the Substance composer, offering arbitrary complex annotations. Victor has a music production background and but is focussed doing web-development for quite some years.
+Victor joined the team this spring. He's been working on the most challenging part, namely web-based content editing. We're moving away from our previous approach using contenteditable (a browser-native interface) to our our very own implementation (Substance Surface) that allows us to build components like Substance Text and the Substance composer, offering arbitrary complex annotations.  
+Victor has a degree in Sound engeneering but started working in the web sector in the early 2000's. He has worked primaraly in the private sector working for clients such as Myspace, the Spanish Chamber of Commerce, Fila Europe or Ericsson Sweden.
 
 
 Focus:
@@ -47,5 +48,6 @@ Focus:
 
 Projects:
 
-- A
-- B
+- [Helly Hansen Norway](http://hellyhansen.com/) - Full rewrite incl. shop with product faceted navigation (v.2010/2011).
+- [FryTuner](http://mortensen.co/projects/fry-player/) - Server based music player for retail stores and restaurants.
+- Ericsson Brand Analytics visualizer – Interactive presentation tool that visualizes the company's figures in comparison to its major competitors – per country/region – on a yearly basis. This tools is fully built with web technologies.
