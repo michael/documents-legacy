@@ -34,8 +34,8 @@ Projects:
 
 ## Victor Saiz
 
-Victor joined the team this spring. He's been working on the most challenging part, namely web-based content editing. We're moving away from our previous approach using contenteditable (a browser-native interface) to our our very own implementation (Substance Surface) that allows us to build components like Substance Text and the Substance Composer, offering arbitrary complex annotations.  
-Victor has a degree in Sound engeneering but started working in the web sector in the early 2000's. He has worked primaraly in the private sector working for clients such as Myspace, the Spanish Chamber of Commerce, Fila Europe or Ericsson Sweden.
+Victor joined the team this spring. He's been working on the most challenging part, namely web-based content editing. We're moving away from our previous approach using contenteditable (a browser-native interface) to our our very own implementation (Substance Surface) that allows us to build components like Substance Text and the Substance Composer, offering arbitrary complex annotations.
+Victor has a degree in Sound engineering but started working in the web sector in the early 2000's. He has worked primarily in the private sector working for clients such as Myspace, the Spanish Chamber of Commerce, Fila Europe or Ericsson Sweden.
 
 
 Focus:
