@@ -19,7 +19,7 @@ You know that feeling, when you read through an online article and an obvious ty
 
 # Removing the hurdles
 
-The most essential problem is that it's pretty hard to get involved. If you're lucky you can put with it. What if you could just touch the content, apply your changes and submit them as a patch? By integrating your publishing workflow with Prose, you can put a link next to your article allowing users to make such contributions.
+The most essential problem is that it's pretty hard to get involved. If you're lucky you can add comments. What if you could just touch the content, apply your changes and submit them as a patch? By integrating your publishing workflow with Prose, you can put a link next to your article allowing users to make such contributions.
 
 ![Edit in Prose](http://farm9.staticflickr.com/8429/7686113722_2e2044fdff.jpg)
 
