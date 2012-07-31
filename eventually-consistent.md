@@ -9,8 +9,6 @@ Essentially, there are two ways of approaching this problem:
 
 With the latest release of [Prose.io](http://prose.io) we'd like to propose a workflow that assumes content will be **consistent eventually**. Much like in the spirit of Open Source Development we claim that continuously improving content in the open leads to better results than applying the best review process.
 
-# Collaboration
-
 Leveraging collaboration is not a very new idea. People have been invited to contribute to published information since a while. Letters to the editor are as old as newspapers. In the digital world people can respond to articles by leaving a comment.
 
 # The human need to contribute
