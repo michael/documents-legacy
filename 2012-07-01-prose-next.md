@@ -4,6 +4,8 @@ First off, the next release will be pretty straight forward. We're going to brin
 
 Among them:
 
+test
+
 - Organizations of course (it's already implemented in Github.js 0.6.0, we just need a UI for it)
 - Several edge cases with routing (e.g. dots within branch names)
 - Easier access for listing repositories of users/organizations (not only from the startpage but also through routes)
