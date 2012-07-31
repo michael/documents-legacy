@@ -27,10 +27,11 @@ The most essential problem
 
 # Suggest a change
 
+(screenshot 
 
-# Review the change
+# Applying a change
 
-Once a suggestion, a patch has been submitted.
+Once a suggestion, a patch has been submitted, the original author should get notified somehow. 
 
 
 # The future
