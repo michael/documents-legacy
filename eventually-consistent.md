@@ -4,12 +4,12 @@ Most things in life are not perfect. That's also true for your writings. Every w
 
 Essentially, there are two ways you can approach this problem:
 
-1. Invest an infinite amount of effort into reviewing before getting a supposedly perfect text out of the door.
-2. Publishing early and contiuously improving your content once it's out, ideally with the help of your readers.
+1. Invest an infinite amount of time into reviewing before getting a supposedly perfect text out of the door.
+2. Publish early and contiuously improve your content once it's out, ideally with the help of your readers.
 
 With the latest release of [Prose.io](http://prose.io) we'd like to propose a workflow that assumes content will be **eventually consistent**. Much like in the spirit of Open Source Development, we claim that continuously improving content in the open leads to better results than applying the best review process.
 
-Leveraging collaboration is not a new idea. People has been invited to contribute to published information for a long while. Letters to the editor are as old as newspapers. In the digital world people can respond to articles by leaving a comment.
+Leveraging collaboration is not a new idea. People have been invited to contribute to published information for a long while. Letters to the editor are as old as newspapers and in the digital world people can respond to articles by leaving a comment.
 
 
 # Humans need to contribute
@@ -53,4 +53,4 @@ Seconds later your fix should be visible on the actual website.
 
 # Finally
 
-This article isn't perfect either, help make it better by submitting a patch.
+This article isn't perfect either, help make it better by submitting a [patch]().
