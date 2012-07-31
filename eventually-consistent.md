@@ -25,21 +25,29 @@ The most essential problem is that it' pretty hard to get involved. If you're lu
 
 ![Edit in Prose](http://farm9.staticflickr.com/8429/7686113722_2e2044fdff.jpg)
 
-![](http://farm8.staticflickr.com/7107/7686113394_48d9fb649a.jpg)
 
 (screenshot showing the edit in prose button)
 
 # Suggest a change
 
+Once the user clicked on this link he is able to edit the contents of the article he was just reading.
 
+![Content shown in Prose](http://farm9.staticflickr.com/8426/7686114230_c5bc0b2927.jpg)
+
+Prose requires you to be authenticated with GitHub first, but then you're able to edit that content and send a patch, which looks like this:
+
+![Send patch](http://farm8.staticflickr.com/7277/7686114584_47440d2783.jpg)
 
 
 # Applying a change
 
-Once a suggestion, a patch has been submitted, the original author should get notified somehow. 
+Once a suggestion, a patch has been submitted, the original author get notified via GitHub. In order to apply that change he has to review the Pull Request that has been created automatically.
+
+![Apply changes](http://farm9.staticflickr.com/8421/7686113582_ae24d9fcd4.jpg)
 
 
-# The future
+# The Result
 
-In a perect world, you'd be able to read an article, and if you want to add something, you can simply point your cursor to the actual text and submit a patch. 
+Seconds later the fix should be visible on the actual website.
 
+![Voilá](http://farm8.staticflickr.com/7107/7686113394_48d9fb649a.jpg)
