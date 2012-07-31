@@ -2,6 +2,8 @@
 
 It's been two weeks since we launched [Prose](http://developmentseed.org/blog/2012/june/25/prose-a-content-editor-for-github/), a content editor for GitHub. The feedback for the initial version was incredible and so we started implementing some features that were highly requested. This release of Prose adds support for organizations, user profiles and syntax highlighting, and also fixes a number of issues that have been identified.
 
+Some updates.
+
 # Support for Organizations
 
 Organizations are now accessible from the startpage. 
@@ -22,7 +24,6 @@ Organizations and users can be accessed by URL directly. We're using the same ur
 - `http://prose.io/#michael`
 
 
-% 
 # Syntax Highlighting
 
 Although Prose is primarily an editor for Markdown files, many users found it to be useful for editing source code files as well. We've added syntax highling for a range of programming languages to make this task even easier.
