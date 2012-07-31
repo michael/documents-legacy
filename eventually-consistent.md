@@ -5,7 +5,7 @@ Most things in life are not perfect. That's also true for text. Every writer, jo
 Essentially, there are two ways of approaching this problem:
 
 1. Invest an infinite amount of effort into reviewing before getting a supposedly perfect text out of the door.
-2. Publish early coniuously improve content once it's out, ideally with the help of readers.
+2. Publish early and contiuously improve content once it's out, ideally with the help of readers.
 
 With the latest release of [Prose.io](http://prose.io) we'd like to propose a workflow that assumes content will be **consistent eventually**. Much like in the spirit of Open Source Development we claim that continuously improving content in the open leads to better results than applying the best review process.
 
