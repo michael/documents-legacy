@@ -7,7 +7,7 @@ Essentially, there are two ways you can approach this problem:
 1. Invest an infinite amount of time into reviewing before getting a supposedly perfect text out of the door.
 2. Publish early and contiuously improve your content once it's out, ideally with the help of your readers.
 
-With the latest release of [Prose.io](http://prose.io) we'd like to propose a workflow that assumes content will be **eventually consistent**. Much like in the spirit of Open Source Development, we claim that continuously improving content in the open leads to better results than applying the best review process.
+With the latest release of [Prose.io](http://prose.io) we'd like to propose a workflow that assumes content will be **eventually consistent**. Much like in the spirit of Open Source development, we claim that continuously improving content in the open leads to better results than applying the best review process available.
 
 Leveraging collaboration is not a new idea. People have been invited to contribute to published information for a long while. Letters to the editor are as old as newspapers and in the digital world people can respond to articles by leaving a comment.
 
@@ -21,7 +21,7 @@ You know that feeling, when you read through an online article and an obvious ty
 
 # Removing the hurdles
 
-The most essential problem is that it's pretty hard to get involved. What if you could just put a link next to your article enabling users to contribute to the text directly? 
+The most essential problem is that it's pretty hard to get involved. What if you could just put a link next to your article enabling users to contribute to the text directly? With Prose and Jekyll this is now possible.
 
 ![Edit in Prose](http://farm9.staticflickr.com/8429/7686113722_2e2044fdff.jpg)
 
@@ -43,14 +43,13 @@ Once a suggestion, a patch has been submitted, the original author gets notified
 
 ![Apply changes](http://farm9.staticflickr.com/8421/7686113582_ae24d9fcd4.jpg)
 
-
 # The Result
 
-Seconds later your fix should be visible on the actual website.
+Seconds later the applied fix will be visible on the actual website.
 
 ![Voilá](http://farm8.staticflickr.com/7107/7686113394_48d9fb649a.jpg)
 
 
 # Finally
 
-This article isn't perfect either, help make it better by submitting a [patch]().
+This article isn't perfect either, help make it better by submitting a [patch](http://prose.io/#developmentseed/developmentseed.github.com/edit/master/_posts/blog-2012/2012-07-31-eventually-consistent.md).
