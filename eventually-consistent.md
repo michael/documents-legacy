@@ -7,7 +7,7 @@ Essentially, there are two ways you can approach this problem:
 1. Invest an infinite amount of effort into reviewing before getting a supposedly perfect text out of the door.
 2. Publishing early and contiuously improving your content once it's out, ideally with the help of your readers.
 
-With the latest release of [Prose.io](http://prose.io) we'd like to propose a workflow that assumes content will be **consistent eventually**. Much like in the spirit of Open Source Development we claim that continuously improving content in the open leads to better results than applying the best review process.
+With the latest release of [Prose.io](http://prose.io) we'd like to propose a workflow that assumes content will be **eventually consistent**. Much like in the spirit of Open Source Development, we claim that continuously improving content in the open leads to better results than applying the best review process.
 
 Leveraging collaboration is not a very new idea. People have been invited to contribute to published information since a while. Letters to the editor are as old as newspapers. In the digital world people can respond to articles by leaving a comment.
 
