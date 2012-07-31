@@ -11,20 +11,20 @@ With the latest release of [Prose.io](http://prose.io) we'd like to propose a wo
 
 Leveraging collaboration is not a new idea. People has been invited to contribute to published information for a long while. Letters to the editor are as old as newspapers. In the digital world people can respond to articles by leaving a comment.
 
+
 # Humans need to contribute
 
 You know that feeling, when you read through an online article and an obvious typo is literally jumping at your face. It's disturbing. But it's there. There's nothing you can do about it.
 
 ![Read Article](http://farm8.staticflickr.com/7136/7686114380_53c5cc53f0.jpg)
 
+
 # Removing the hurdles
 
-The most essential problem is that it's pretty hard to get involved. If you're lucky you can add comments. What if you could just touch the content, apply your changes and submit them as a patch? By integrating your publishing workflow with Prose, you can put a link next to your article allowing users to make such contributions.
+The most essential problem is that it's pretty hard to get involved. What if you could just put a link next to your article enabling users to contribute to the text directly? 
 
 ![Edit in Prose](http://farm9.staticflickr.com/8429/7686113722_2e2044fdff.jpg)
 
-
-(screenshot showing the edit in prose button)
 
 # Suggest a change
 
@@ -49,3 +49,8 @@ Once a suggestion, a patch has been submitted, the original author gets notified
 Seconds later your fix should be visible on the actual website.
 
 ![Voilá](http://farm8.staticflickr.com/7107/7686113394_48d9fb649a.jpg)
+
+
+# Finally
+
+This article isn't perfect either, help make it better by submitting a patch.
