@@ -1,6 +1,6 @@
 # Eventually consistent
 
-Most things in life are not perfect. That's also true for text. Every writer, journalist or scientist can tell you about it. There will always be room for improvement.
+Most things in life are not perfect. That's also true for your writings. Every writer, journalist or scientist can tell you about it. There will always be room for improvement.
 
 Essentially, there are two ways of approaching this problem:
 
