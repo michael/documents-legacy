@@ -2,7 +2,7 @@
 
 Most things in life are not perfect. That's also true for your writings. Every writer, journalist or scientist can tell you about it. There will always be room for improvement.
 
-Essentially, there are two ways of approaching this problem:
+Essentially, there are two ways you can approach this problem:
 
 1. Invest an infinite amount of effort into reviewing before getting a supposedly perfect text out of the door.
 2. Publish early and contiuously improving content once it's out, ideally with the help of your readers.
