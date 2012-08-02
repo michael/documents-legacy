@@ -1,6 +1,6 @@
 # Roadmap
 
-**Substance 0.5.0** will be a full rewrite, using a completely new **distributed** architecture, but with reusing a lot of code that's already there. This release should solve all the issues we identified while building our current prototype 0.4.0. We'll rewrite the editing component so we don't have to use `contenteditable` anymore. Documents will be manipulated by operations, so we can reconstruct every revision at any time.
+**Substance 0.5.0** will be a major release, using a completely new **distributed** architecture, but with reusing a lot of code that's already there. This release should solve all the issues we identified while building our current prototype 0.4.0. We'll rewrite the editing component so we don't have to use `contenteditable` anymore. Documents will be manipulated by operations, so we can reconstruct every revision at any time.
 
 We've got a tough roadmap to get a first working prototype out, with basic functionality.
 
@@ -31,7 +31,7 @@ Deals with client sessions (Websockets, until we have our in-memory setup ready)
 
 ### Substance Frontend (Michael)
 
-Packages the Composer, and all app-specific bits.. into the Substance Frontend. In other words, the Substance Frontend will be a reference integration of the Substance Composer.
+Packages the Composer, and all app-specific bits.. into the Substance Frontend. In other words, the Substance Frontend will be a reference implementation of the Substance Composer.
 
 ### Substance - The App (Michael)
 
