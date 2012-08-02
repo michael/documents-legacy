@@ -1,6 +1,6 @@
 # Roadmap
 
-Substance 0.5.0 will be a full rewrite, using a completely new **distributed** architecture, but with reusing a lot of code that's already there. This release should solve all the issues we identified while building our current Prototpye 0.4.0. We'll rewrite the editing component so we don't have to use `contenteditable` anymoer. Documents will be manipulated by operations, so we can reconstruct every revision at any time.
+**Substance 0.5.0** will be a full rewrite, using a completely new **distributed** architecture, but with reusing a lot of code that's already there. This release should solve all the issues we identified while building our current prototype 0.4.0. We'll rewrite the editing component so we don't have to use `contenteditable` anymore. Documents will be manipulated by operations, so we can reconstruct every revision at any time.
 
 We've got a tough roadmap to get a first working prototype out, with basic functionality.
 
@@ -35,8 +35,7 @@ Packages the Composer, and all app-specific bits.. into the Substance Frontend. 
 
 ### Substance - The App (Michael)
 
-The mother ship, a reference implementation packages the whole Substance stack, we'll keep this very basic, borrowing stuff from the existing Substance implementation.
-
+The mother ship. This will be a reference implementation packaging the whole Substance stack, we'll keep this very basic, borrowing stuff from the existing Substance implementation. This app can either be installed and used locally, or in a hosted environment.
 
 ## Stage 2 - Put it all together
 
@@ -45,7 +44,6 @@ After completing stage two, we should have a functional package covering the fun
 - Provide an API for creating and updateding documents programmatically
 - Annotating documents (em, strong, links + comments)
 - Patches on individual document nodes
-- 
 
 ## Stage 3 - Substance, ez-XBRL edition
 
