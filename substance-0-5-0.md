@@ -31,7 +31,7 @@ Deals with client sessions (Websockets, until we have our in-memory setup ready)
 
 ### Substance Frontend (Michael)
 
-Packages the Composer, and all app-specific bits.. into the Substance Frontend. In other words, the Substance Frontend will be a reference implementation of the Substance Composer.
+Packages the Composer, and all app-specific bits.. into the Substance Frontend. In other words, the Substance Frontend will be a reference integration of the Substance Composer.
 
 ### Substance - The App (Michael)
 
