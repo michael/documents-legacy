@@ -32,10 +32,6 @@
 
 * [00:26 - Video_Scene_3a] Video: Adding a red marker (2 secs)
 
-* [00:28 - Small Text Screen] "Discuss." (2sec)
-
-* [00:30 - Video_Scene_3a] Video: Adding a comment (2 secs)
-
 * [00:32 - Small Text Screen] "Resolve." (2sec)
 
 * [00:34 - Video_Scene_3a] Video: Resolving an error (2 secs)
