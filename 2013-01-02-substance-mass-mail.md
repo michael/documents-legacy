@@ -1,4 +1,4 @@
-Hi <USERNAME>!
+Hi USERNAME!
 
 I'm the author of Substance.io (you signed up for it in the early days) and I'm reaching out to you because we, the team behind Substance, need your help.
 
