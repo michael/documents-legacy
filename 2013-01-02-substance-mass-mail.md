@@ -8,7 +8,7 @@ So we sat down, worked out a concrete roadmap and launched a campaign on Pledgie
 
 http://pledgie.com/campaigns/18902
 
-With the help of your donation we could do it, which is exciting! Remember, Substance.io counts 4900 registered users yet. If everyone would donate 10EUR, we were there already. 
+With the help of your donation we could do it, which is exciting! Remember, Substance.io counts 4900 registered users yet. If everyone donated 10EUR, we were there already. 
 
 Please spread the word for us!
 
