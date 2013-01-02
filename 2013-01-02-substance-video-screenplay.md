@@ -42,4 +42,4 @@
 
 * [00:26 - Big Text Screen] "You like the idea?" (2sec)
 
-* [00:28 - Big Text Screen] "Support our campaign!" (2sec)
+* [00:28 - Big Text Screen] "Donate, and help us make it happen!" (2sec)
