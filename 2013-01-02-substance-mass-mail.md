@@ -12,6 +12,6 @@ With the help of your donation we could do it, which is exciting! Remember, Subs
 
 Please spread the word for us!
 
-Thanks, Happy New Year!
+Thanks, and have a great new year!
 
 Team Substance (Michael, Victor, Oliver)
