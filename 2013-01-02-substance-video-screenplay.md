@@ -8,7 +8,10 @@
 
 * [00:04 - Small Text Screen] "Produce stories, books, documentations or scientific papers." (2 sec)
 
-* [00:06 - Small Text Screen] The Substance eco-system consists of an offline editing tool (The Substance Composer) and an online multi-platform publishing system (Substance.io). (2sec)  *can we shorten this?*
+* [00:06 - Small Text Screen] "Securely edit Documents on your computer using the **Substance Composer**" (2 sec)
+
+* [00:08 - Small Text Screen] "Share them online at **Substance.io**, our web-based publishing platform" (2 sec)
+
 
 ## Scene 2 - Substance Composer
 
