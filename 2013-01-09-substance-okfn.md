@@ -1,18 +1,20 @@
-# Towards open digital publishing with Substance
+## Towards open digital publishing with Substance
 
-I'm the maintainer of Substance, a software platform that aims to solve the challenges of today's digital publishing needs.
+I'm the maintainer of [Substance](http://substance.io), an open software platform for collaborative composition and sharing of digital documents.
+
+
 
 With this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of user-driven software. With Substance we're implementing some of the proposed ideas, not only to verify their feasability but to provide an Open Source publishing system. 
 
-# Challenges of modern digital publishing
+## Challenges of modern digital publishing
 
 ## Content Creation
 
 First off, documents need to be written. Text needs to be annotated and structured. Images, tables and lists need to be added. Today the addition of interactive content (such as visualizations, interactive maps, etc.) becomes increasingly important and should be supported by publishing systems.
 
-### Peer-review processes
+### Quality Management
 
-In order to ensure quality and consistency of digital content, publishers need to setup a peer-review workflow. Publishing systems must provide means for reviewers to suggest ideas, report errors and offer an easy way of communication between reviewers and authors.
+In order to ensure quality and consistency of digital content, publishers need to setup a peer-review workflow. Publishing systems must provide means for reviewers to *suggest ideas*, *report errors* and offer an easy way of *communication* between reviewers and authors.
 
 ## Publishing
 
