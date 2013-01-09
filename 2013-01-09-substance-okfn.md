@@ -6,7 +6,7 @@ I'm the maintainer of [Substance](http://substance.io), an open software platfor
 
 ### Content Creation
 
-First off, content needs to be created. Text needs to be written, annotated and structured. Images, tables and lists need to be added. Today, the addition of interactive content (such as visualizations, interactive maps, etc.) becomes increasingly important and should be supported by publishing systems.
+At the beginning there is content creation. Text needs to be written, annotated and structured. Images, tables and lists need to be added. Today, the addition of interactive content (such as visualizations, interactive maps, etc.) becomes increasingly important and should be supported by publishing systems.
 
 ### Quality Management
 
@@ -14,7 +14,7 @@ In order to ensure quality and consistency of digital content, publishers need t
 
 ### Publishing
 
-Once the content is complete, it's time to share it with the public. Publishing used to be a manual process consuming a substantial amount of time and expert knowledge. Software tools are created to automatize that part. Authors should be able to put their work online themselves, without any manual steps being necessary.
+Once the content is complete, it's time to share it with the public. Publishing used to be a manual process involving expert knowledge and consuming a substantial amount of time. Software tools are created to automatize that part. Authors should be able to share their work online themselves, without any manual steps being necessary.
 
 ### Change Management
 
@@ -22,15 +22,15 @@ Even if the best review processes were applied, all published content is prone t
 
 ### Content distribution
 
-Content distribution is a complex issue today. While back in the day there was just paper, today content is also consumed electronically on different platforms: On the web, in Ebook Readers and on Smartphones. And they are all different. There needs to be a smart mechanism that automagically turns one publication into a variety of formats (ePub, HTML, PDF) so as a publisher, you don't have to prepare versions for each and every platform supported.
+Content distribution is becoming an increasingly complex issue today. Back in the day there was just paper, but today content is also consumed electronically on different platforms: On the web, in Ebook Readers and on Smartphones. And they are all different. There needs to be a smart mechanism that automagically turns one publication into a variety of formats (ePub, HTML, PDF) so as a publisher, you don't have to prepare versions for each and every targeted platform.
 
 ## Solutions
 
-Over the last 2 years we did a lot of research and built a working prototype. Those are some of our conclusions that make a good digital publishing system.
+Over the last 2 years we did a lot of research and built a working prototype, Substance. Those are some of our conclusions that we believe make a good digital publishing system.
 
 ### Separate content from presentation
 
-Many traditional publishing systems that store rich markup (such as HTML) only allow publishing in that same format, which is a serious limitation when it comes to multi-platform publishing. How would you turn an HTML document into a printable version? How would you optimize it for Ebook Readers that use special document formats (e.g. Amazon Kindle)? By storing content (plain text) and annotations separately, users gain the ability of transforming their documents into any format they need.
+Many traditional publishing systems store rich markup (such as HTML) and thus only allow publishing in that same format, which is a serious limitation when it comes to multi-platform publishing. How would you turn an HTML document into a printable version? How would you optimize it for Ebook Readers that use special document formats (e.g. Amazon Kindle)? By storing content (plain text) and annotations separately, users gain the ability of transforming their documents into any format they need.
 
 ### Structured Composition
 
@@ -78,7 +78,7 @@ Instead of editing a big canvas, Substance documents are composed of content ele
 Substance comes with a predfined set of element types. Out of the box you can choose from headings, text and images. However, it's easy to implement your own element types, and use it with your tailored version of the Substance editor.
 
 
-## Architecture
+### Architecture
 
 The new Substance eco-system consists of an offline editing tool (The Substance Composer) and an online multi-platform publishing system (Substance.io).
 
