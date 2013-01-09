@@ -40,15 +40,15 @@ By considering a document a sequence of content elements rather than one big chu
 
 ### Offline Editing
 
-We've seen the drawbacks of online publishing solutions, such as Google Docs. It turns out that providing an offline editor can significantly improve the user experience during editing and guarantee data security. Information will stay private until users synchronize their publication with a public web-server. Besides, authors can continue editing even if there's no internet connection.
+We've seen the drawbacks of fully web-based publishing solutions, such as high latency and data loss. It turned out that providing an offline editor can significantly improve the user experience during editing and guarantee data security. Importantly information will stay private until users synchronize their publication with a public web-server. Moreover, authors can continue editing even if there's no internet connection.
 
 ### Support for Collaboration
 
-Authoring a publication is an iterative process that may involve many authors. During that process users should be enabled to add markers and comments on certain text fragments. Markers should stay out of the user's way, and only be shown contextually (e.g. when the text cursor is matching the corresponding marker).
+Authoring a publication is an iterative process that may involve many authors that are able to simultaneously edit a single document. During that process users should be enabled to add markers and comments to certain text fragments. Markers and comments should stay out of the user's way, and only be shown contextually (e.g. when the text cursor is matching the corresponding marker).
 
 ### Operational Transformation
 
-Instead or in addition to storing the current state of the document, it advantageous to capture a sequence of operations that have been applied by the author. Instead of describing a document by its state (e.g. it has a section, followed by a paragraph) we describe it using a sequence of operations executed by the user (insert section, insert paragraph after section). By doing so, the full evoluationary history of a document can be accessed and time travels are possible. Not only document content is versioned, also annotations and comments that stick on the content. Furthermore Operational Transformation is the basis for collaborative features.
+Instead or in addition to storing the current state of the document, it advantageous to capture a sequence of operations that have been applied to the document. Instead of describing a document by its state (e.g. it has a section, followed by a paragraph) it can be described using a sequence of operations executed by the user (insert section, insert paragraph after section respectively). By doing so, the full evoluationary history of a document can be accessed and time travels are possible. Not only document content is versioned, also annotations and comments that stick on the content. Furthermore Operational Transformation forms the basis for collaborative editing features.
 
 ### Extensibility
 
@@ -60,7 +60,7 @@ Substance is a content creation tool and a simple multi-format publishing platfo
 
 ### Content is data
 
-Substance considers content as data, which makes them accessible to computers and allows new ways of processing them. Documents can not only be viewed, they can be queried, just like a database. 
+Substance considers **content as data**, which makes them accessible to computers and allows new ways of processing them. Documents can not only be viewed, they can be queried, just like a database. 
 
 You can try out how this works using the Substance Console:
 
@@ -75,7 +75,7 @@ Instead of editing a big canvas, Substance documents are composed of content ele
 
 ### Custom Element Types
 
-Substance comes with a predfined set of element types. Out of the box you can choose from headings, text and images. However, it's easy to implement your own element types, and use it with your tailored version of the Substance editor.
+Substance comes with a predfined set of element types. Out of the box you can choose from headings, text and images. However, it is easy to implement your own element types, and use it with your tailored version of the Substance Composer.
 
 
 ### Architecture
@@ -88,7 +88,7 @@ The new Substance eco-system consists of an offline editing tool (The Substance 
 
 ![](http://interior.substance.io/images/campaign/substance.png)
 
-The Substance Composer is a desktop application (OSX and Linux first, Windows later), where you create and manage digital documents. While traditional text editors usually deal with visual information (emulating its representations on paper), the Substance Composer is developed around the idea that content is data. Its structured document composition allows documents to be stored and represented in multiple arbitrary ways. On top of that, with its collaborative features you can annotate, comment and revise your content with anyone. 
+The [Substance Composer](interior.substance.io/modules/composer.html) is a desktop application (OSX and Linux first, Windows later), where you create and manage digital documents. While traditional text editors usually deal with visual information (emulating its representations on paper), the Substance Composer is developed around the idea that content is data. Its structured document composition allows documents to be stored and represented in multiple arbitrary ways. On top of that, with its collaborative features you can annotate, comment and revise your content with anyone. 
 
 ### Substance.io
 
@@ -96,7 +96,7 @@ The Substance Composer is a desktop application (OSX and Linux first, Windows la
 
 Anyone can create a free account on the Substance.io server and start publishing their content online in one click straight from the Composer. You can think of it as an open document repository from where you will be able to manage your published content, add it to existing networks, find other people’s public documents or export yours in any format imaginable (print, web, tablet, mobile and more).
 
-# We need your help!
+# Substance needs your help!
 
 Over the last two years, Substance has grown into a large project and has gained a lot of attention. People have been contacting us expressing their wish to integrate Substance in their application use-cases. Sadly, we have not yet reached a stage in which it can be used in production. We'd love to change that!
 
@@ -106,9 +106,7 @@ http://pledgie.com/campaigns/18902
 
 The goal of this campaign is to get Substance out of experimental state into a usable release. However, the more concrete our goals get, the more we see the need to spend dedicated time on it, in order to come to the day when we can say “It’s finally here!”.
 
-With the help of your donation we could make it happen, which is exciting! If you like the idea proposed and want to see them in action, support us with your donation! 
-
-For orientation: With a donation of 400EUR you can fund a full day of Substance development involving 3 developers.
+With the help of your donation we could make it happen, which is exciting! If you like the idea proposed and want to see them in action, support us with your donation. For orientation: With a donation of 400 EUR you can fund a full day of Substance development involving 3 developers.
 
 Lastly, here's how Substance looks in action:
 
