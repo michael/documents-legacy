@@ -1,54 +1,51 @@
 ## Towards open digital publishing with Substance
 
-I'm the maintainer of [Substance](http://substance.io), an open software platform for collaborative composition and sharing of digital documents.
+I'm the maintainer of [Substance](http://substance.io), an open software platform for collaborative composition and sharing of digital documents. 
 
+With this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of user-driven software. With Substance, our team is implementing some of the proposed ideas, not only to verify their feasability but also to release a full-featured and free-to-use publishing system as a modern alternative to existing publishing solutions.
 
-
-With this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of user-driven software. With Substance we're implementing some of the proposed ideas, not only to verify their feasability but to provide an Open Source publishing system. 
 
 ## Challenges of modern digital publishing
 
-## Content Creation
+### Content Creation
 
-First off, documents need to be written. Text needs to be annotated and structured. Images, tables and lists need to be added. Today the addition of interactive content (such as visualizations, interactive maps, etc.) becomes increasingly important and should be supported by publishing systems.
+First off, documents need to be written. Text needs to be annotated and structured. Images, tables and lists need to be added. Today, the addition of interactive content (such as visualizations, interactive maps, etc.) becomes increasingly important and should be supported by publishing systems.
 
 ### Quality Management
 
 In order to ensure quality and consistency of digital content, publishers need to setup a peer-review workflow. Publishing systems must provide means for reviewers to *suggest ideas*, *report errors* and offer an easy way of *communication* between reviewers and authors.
 
-## Publishing
+### Publishing
 
 Once the content is complete, it's time to share it with the public. Publishing used to be a manual process consuming a substantial amount of time and expert knowledge. Digital tools are created to automatize that part. Authors should be able to put their work online themselves.
 
 ### Change Mangement / Version management
 
-Even if the best review process were applied, all published content is prone to have errors. Over time, pieces of content need to be updated, information need to be added, and a new addition of the document needs to be published. Publishing systems 
-
-[Eventually Consistent](http://prose.io/help/eventually-consistent.html)
-
-
-- you need a smart way to deal with updates in a publishing scenario
-It should be possible to publish updated versions 
+Even if the best review process were applied, all published content is prone to have errors. Over time, pieces of content need to be updated, information need to be added, and a new edition of the document needs to be published to ensure [eventual consistency](http://prose.io/help/eventually-consistent.html). Therefore publishing systems must support incremental updates as well as an easy way for releasing new editions of publications.
 
 ### Content distribution
 
+Content distribution is a complex issue today. While back in the day there was just paper, today content is also consumed electronically on different platforms: On the web, in Ebook Readers and on Smartphones. And they are all different.
+
+There needs to be smart a mechanism that automagically turns one publication into a variety of formats (ePub, HTML, PDF) so as a publisher, you don't have to prepare versions for each and every platform supported.
 
 
+## Solutions
 
-### Multiple target platforms
+### Separate content from presentation
 
-Content may be consumed on paper, online, in ebookreaders or on smart devices like (ipad iphone etc.)
-- you may want to address multiple target platforms
+Many traditional publishing systems that store Rich Markup (such as HTML) only allow publishing in that same format, which is a serious limitation when it comes to multi-platform publishing. How would you turn an HTML document into a printable version? How would you optimize it for ebook readers that use special document formats (e.g. Amazon Kindle)? By storing content (plain text) and annotations separately, you gain the ability of transforming your document into whatever you want.
+
+### Offline editing
+
+We've seen the drawbacks of online publishing solutions, such as Google Docs. It turns out that providing an offline editor can significantly improve the user experience during editing as well as guarantee data security. Information will stay private until you synchronize your publication with a public web-server.
 
 
-
-
-
-### Peer-review processes
+### 
 
 ### Beyond markup
 
-Markup languages such as HTML and Markdown are widely used to write and annotate digital documents. However, they are hard to handle by non-tech people.
+Markup languages such as HTML and Markdown are widely used to write and annotate digital documents. However, they are hard to handle by people who are technically inexperienced.
 
 
 # Substance
@@ -61,6 +58,10 @@ Substance is built around some core ideas:
 ### Content is data
 
 Substance considers content as data, which makes them accessible to computers and allows new ways of processing them. Documents can not only be viewed, they can be queried, just like a database. Please refer to the documentation of the Substance Document module to learn how this works.
+
+
+Therefore we are implementing an open document format, that guarantees that content
+[Substance.Document](http://interior.substance.io/document/)
 
 ### Structured composition, using different types of content elements
 
