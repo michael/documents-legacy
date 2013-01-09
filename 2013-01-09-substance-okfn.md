@@ -108,4 +108,14 @@ Anyone can create a free account on the Substance.io server and start publishing
 
 # We need your help
 
-With a donation of 400EUR you can fund a full day of Substance development
+Over the last two years, Substance has grown into a large project and has gained a lot of attention. People have been contacting us expressing their wish to integrate Substance in their application use-cases. Sadly, we have not yet reached a stage in which it can be used in production. We'd love to change that!
+
+So we sat down, worked out a roadmap and launched a campaign.
+
+http://pledgie.com/campaigns/18902
+
+The goal of this campaign is to get Substance out of experimental state into a usable release. However, the more concrete our goals get, the more we see the need to spend dedicated time on it, in order to come to the day when we can say “It’s finally here!”.
+
+With the help of your donation we could make it happen, which is exciting! If you like the idea proposed and want to see them in action, support us with your donation! 
+
+For orientation: With a donation of 400EUR you can fund a full day of Substance development.
