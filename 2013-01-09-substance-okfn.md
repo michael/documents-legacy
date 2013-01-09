@@ -1,22 +1,31 @@
-We are creating the Substance platform as a response to the challenges of digital publishing.
-
-## The challenges of digital publishing
+This is a little essay on content creation and publishing. I'm the maintainer of Substance, a software platform that aims to solve the challenges of today's digital publishing needs.
 
 ## Content Creation
 
-First off, documents need to be written. Text needs to be annotated and structured. Images need to be added and today the addition of interactive content (such as visualizations, interactive maps, etc.) becomes increasingly important.
-
-## Publishing
+First off, documents need to be written. Text needs to be annotated and structured. Images, tables and lists need to be added. Today the addition of interactive content (such as visualizations, interactive maps, etc.) becomes increasingly important and should be supported by publishing systems.
 
 ### Peer-review processes
 
+In order to ensure quality and consistency of digital content, publishers need to setup a peer-review workflow. Publishing systems must provide means for reviewers to suggest ideas, report errors and offer an easy way of communication between reviewers and authors.
+
+## Publishing
+
+Once the content is complete, it's time to share it with the public. Publishing used to be a manual process consuming a substantial amount of time and expert knowledge. Digital tools are created to automatize that part. Authors should be able to put their work online themselves.
+
 ### Change Mangement / Version management
+
+Even if the best review process were applied, all published content is prone to have errors. Over time, pieces of content need to be updated, information need to be added, and a new addition of the document needs to be published. Publishing systems 
+
+[Eventually Consistent](http://prose.io/help/eventually-consistent.html)
+
 
 - you need a smart way to deal with updates in a publishing scenario
 It should be possible to publish updated versions 
 
+### Content distribution
 
-- to ensure quality/consistency
+
+
 
 ### Multiple target platforms
 
