@@ -2,23 +2,29 @@ We are creating the Substance platform as a response to the challenges of digita
 
 ## The challenges of digital publishing
 
-
 ## Content Creation
 
+First off, documents need to be written. Text needs to be annotated and structured. Images need to be added and today the addition of interactive content (such as visualizations, interactive maps, etc.) becomes increasingly important.
 
 ## Publishing
 
 ### Peer-review processes
 
+### Change Mangement / Version management
+
+- you need a smart way to deal with updates in a publishing scenario
+It should be possible to publish updated versions 
+
+
 - to ensure quality/consistency
 
 ### Multiple target platforms
 
+Content may be consumed on paper, online, in ebookreaders or on smart devices like (ipad iphone etc.)
 - you may want to address multiple target platforms
 
-### Change Management
 
-- you need a smart way to deal with updates in a publishing scenario
+
 
 
 ### Peer-review processes
@@ -29,6 +35,9 @@ Markup languages such as HTML and Markdown are widely used to write and annotate
 
 
 # Substance
+
+Substance is a content creation tool and a dead simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content.
+
 
 Substance is built around some core ideas:
 
@@ -55,6 +64,8 @@ You want your texts to be secure when typing.
 
 ## Architecture
 
+The new Substance eco-system consists of an offline editing tool (The Substance Composer) and an online multi-platform publishing system (Substance.io).
+
 ### The Substance Composer
 
 ![](http://interior.substance.io/images/campaign/substance.png)
@@ -69,3 +80,7 @@ The Substance Composer is a desktop application (OSX and Linux first, Windows la
 Anyone can create a free account on the Substance.io server and start publishing their content online in one click straight from the Composer. You can think of it as an open document repository from where you will be able to manage your published content, add it to existing networks, find other people’s public documents or export yours in any format imaginable (print, web, tablet, mobile and more).
 
 
+
+### How is it different from Google Docs?
+
+Unlike Google Docs Substance focuses on structured content composition, leaving the layout part to the system not the user. Because of the absence of formatting utilities, it suggests structured, content-oriented writing. The Substance Composer is available as Open Source and can be extended by the developer community. It’s is intended to be a platform, not a product. Moreover, with Substance your data is stored locally, unless you share it with the public or a selected number of people.
