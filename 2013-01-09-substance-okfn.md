@@ -52,8 +52,7 @@ Instead or in addition to storing the current state of the document, it advantag
 
 ### Extensibility
 
-Editing requirements are fundamentally different among application domain. While book authors are comfortable with headings, text and images, scientists demand more advanced content types such as formulas, data-tables and visualizations to prove their research findings.
-
+Editing requirements are fundamentally different among application domains. While book authors are comfortable with headings, text and images, scientists may demand more advanced content types such as formulas, data-tables and visualizations to prove their research findings.
 
 # Substance
 
@@ -74,6 +73,9 @@ Please refer to the documentation of the [Substance.Document](http://interior.su
 
 Instead of editing a big canvas, Substance documents are composed of content elements. While existing solutions (like Google Docs) bring traditional word-processing to the web, Substance focusses on content, by leaving the layout part to the system, not the user. Because of the absence of formatting utilities, it suggests structured content-oriented writing.
 
+### Custom Element Types
+
+Substance comes with a predfined set of element types. Out of the box you can choose from headings, text and images. However, it's easy to implement your own element types, and use it with your tailored version of the Substance editor.
 
 
 ## Architecture
