@@ -1,9 +1,6 @@
 ## Towards open digital publishing with Substance
 
-I'm the maintainer of [Substance](http://substance.io), an open software platform for collaborative composition and sharing of digital documents. 
-
-With this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of user-driven software. With Substance, our team is implementing some of the proposed ideas, not only to verify their feasability but also to release a full-featured and free-to-use publishing system as a modern alternative to existing publishing solutions.
-
+I'm the maintainer of [Substance](http://substance.io), an open software platform for collaborative composition and sharing of digital documents. In this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of user-driven software. With Substance, our team is implementing some of the proposed ideas, not only to verify their feasability but also to release a full-featured and free-to-use publishing system as a modern alternative to existing publishing solutions.
 
 ## Challenges of modern digital publishing
 
@@ -77,15 +74,11 @@ Substance considers content as data, which makes them accessible to computers an
 
 Most often things work best when there are simple rules. This is why Substance cosiders documents a sequence of elements. That’s it.
 
-
-
 are used to include style information in documents.
 
 ### Semantic editing
 
 Instead of editing a big canvas, Substance documents are composed of content elements. While existing solutions (like Google Docs) bring traditional word-processing to the web, Substance focusses on content, by leaving the layout part to the system, not the user. Because of the absence of formatting utilities, it suggests structured content-oriented writing.
-
-## 
 
 
 ## Architecture
@@ -105,7 +98,6 @@ The Substance Composer is a desktop application (OSX and Linux first, Windows la
 
 Anyone can create a free account on the Substance.io server and start publishing their content online in one click straight from the Composer. You can think of it as an open document repository from where you will be able to manage your published content, add it to existing networks, find other people’s public documents or export yours in any format imaginable (print, web, tablet, mobile and more).
 
-
 # We need your help
 
 Over the last two years, Substance has grown into a large project and has gained a lot of attention. People have been contacting us expressing their wish to integrate Substance in their application use-cases. Sadly, we have not yet reached a stage in which it can be used in production. We'd love to change that!
@@ -119,3 +111,8 @@ The goal of this campaign is to get Substance out of experimental state into a u
 With the help of your donation we could make it happen, which is exciting! If you like the idea proposed and want to see them in action, support us with your donation! 
 
 For orientation: With a donation of 400EUR you can fund a full day of Substance development.
+
+Lastly, here's how it looks in action.
+
+<iframe src="http://player.vimeo.com/video/56703462" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
