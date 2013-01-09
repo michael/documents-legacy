@@ -26,7 +26,7 @@ Content distribution is becoming an increasingly complex issue today. Back in th
 
 ## Solutions
 
-Over the last 2 years we did a lot of research and built a working prototype, Substance. Those are some of our conclusions that we believe make a good digital publishing system.
+Over the last 2 years we did a lot of research and built a working prototype, Substance. These are some of our conclusions that we believe make a good digital publishing system.
 
 ### Separate content from presentation
 
