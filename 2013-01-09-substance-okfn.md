@@ -1,12 +1,12 @@
 ## Towards open digital publishing with Substance
 
-I'm the maintainer of [Substance](http://substance.io), an open software platform for collaborative composition and sharing of digital documents. In this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of user-driven software. With Substance, our team is implementing some of the proposed ideas, not only to verify their feasability but also to release a full-featured and free-to-use publishing system as a modern alternative to existing publishing solutions.
+I'm the maintainer of [Substance](http://substance.io), an open software platform for collaborative composition and sharing of digital documents. In this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of specialized user-driven software. With Substance, our team is implementing the proposed ideas, not only to verify their feasability but also to release a full-featured and free-to-use publishing system as a modern alternative to existing publishing solutions.
 
 ## Challenges of modern digital publishing
 
 ### Content Creation
 
-First off, documents need to be written. Text needs to be annotated and structured. Images, tables and lists need to be added. Today, the addition of interactive content (such as visualizations, interactive maps, etc.) becomes increasingly important and should be supported by publishing systems.
+First off, content needs to be created. Text needs to be written, annotated and structured. Images, tables and lists need to be added. Today, the addition of interactive content (such as visualizations, interactive maps, etc.) becomes increasingly important and should be supported by publishing systems.
 
 ### Quality Management
 
@@ -14,11 +14,11 @@ In order to ensure quality and consistency of digital content, publishers need t
 
 ### Publishing
 
-Once the content is complete, it's time to share it with the public. Publishing used to be a manual process consuming a substantial amount of time and expert knowledge. Digital tools are created to automatize that part. Authors should be able to put their work online themselves.
+Once the content is complete, it's time to share it with the public. Publishing used to be a manual process consuming a substantial amount of time and expert knowledge. Software tools are created to automatize that part. Authors should be able to put their work online themselves, without any manual steps being necessary.
 
 ### Change Management
 
-Even if the best review process were applied, all published content is prone to have inconsistencies and errors. Over time, pieces of content need to be updated, additional information added, and a new edition of the document has to be published to ensure [eventual consistency](http://prose.io/help/eventually-consistent.html). Therefore publishing systems must support incremental updates as well as an easy way for releasing new editions of publications.
+Even if the best review process were applied, all published content is prone to have inconsistencies and errors. Over time, pieces of content need to be updated, additional information added, and a new edition of the document be published to ensure [eventual consistency](http://prose.io/help/eventually-consistent.html). Therefore, publishing systems must support incremental updates as well as an easy way for releasing new editions of publications.
 
 ### Content distribution
 
@@ -34,56 +34,54 @@ Many traditional publishing systems that store Rich Markup (such as HTML) only a
 
 ### Structured Composition
 
+By considering a document a sequence of content elements rather than one big chunk of formatted text document editors can be easily adapted for different application use-cases.
+
+![](http://interior.substance.io/images/illustrations/semantic-writing-elements.png)
 
 
 ### Offline Editing
 
-We've seen the drawbacks of online publishing solutions, such as Google Docs. It turns out that providing an offline editor can significantly improve the user experience during editing as well as guarantee data security. Information will stay private until you synchronize your publication with a public web-server. Authors can continue editing even if there's no internet connection.
+We've seen the drawbacks of online publishing solutions, such as Google Docs. It turns out that providing an offline editor can significantly improve the user experience during editing as well as guarantee data security. Information will stay private until you synchronize your publication with a public web-server. Besides, authors can continue editing even if there's no internet connection.
 
 ### Support for Collaboration
 
-Authoring a publication is an iterative process that may involve many authors.
-
+Authoring a publication is an iterative process that may involve many authors. During that process users should be enabled to add markers and comments on certain text fragments. Markers should stay out of the user's way, and only shown contextually (e.g. when the cursor is 
 
 ### Operational Transformation
 
-Instead or in addition to storing the current state of the document, it advantageous to capture a sequence of operations that have been applied by the author. Instead of describing a document.
+Instead or in addition to storing the current state of the document, it advantageous to capture a sequence of operations that have been applied by the author. Instead of describing a document by its state (e.g. it has a section, followed by a paragraph) we describe it using a sequence of operations executed by the user (insert section, insert paragraph after section). By doing so, the full evoluationary history of a document can be accessed and time travels are possible. Not only document content is versioned, also annotations and comments that stick on the content. Furthermore Operational Transformation is the basis for collaborative features.
 
 ### Extensibility
 
 Editing requirements are fundamentally different among application domain. While book authors are comfortable with headings, text and images, scientists demand more advanced content types such as formulas, data-tables and visualizations to prove their research findings.
 
 
-### Extensibility
-
-### Beyond markup
-
-Markup languages such as HTML and Markdown are widely used to write and annotate digital documents. However, they are hard to handle by people who are technically inexperienced.
-
-
 # Substance
 
-Substance is a content creation tool and a simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content. Substance is built around some core ideas:
+Substance is a content creation tool and a simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content. It is build around the following core ideas:
 
 ### Content is data
 
-Substance considers content as data, which makes them accessible to computers and allows new ways of processing them. Documents can not only be viewed, they can be queried, just like a database. Please refer to the documentation of the [Substance.Document](http://interior.substance.io/document/) module to learn how this works.
+Substance considers content as data, which makes them accessible to computers and allows new ways of processing them. Documents can not only be viewed, they can be queried, just like a database. 
 
+You can try out how this works using the Substance Console:
 
-### Structured composition, using different types of content elements
+<iframe scrolling='no' src='http://interior.substance.io/document/' frameborder='0' height='600' width='800'>
+</iframe>
 
-Most often things work best when there are simple rules. This is why Substance cosiders documents a sequence of elements. That’s it.
-
-are used to include style information in documents.
+Please refer to the documentation of the [Substance.Document](http://interior.substance.io/document/) module to learn how this works.
 
 ### Semantic editing
 
 Instead of editing a big canvas, Substance documents are composed of content elements. While existing solutions (like Google Docs) bring traditional word-processing to the web, Substance focusses on content, by leaving the layout part to the system, not the user. Because of the absence of formatting utilities, it suggests structured content-oriented writing.
 
 
+
 ## Architecture
 
 The new Substance eco-system consists of an offline editing tool (The Substance Composer) and an online multi-platform publishing system (Substance.io).
+
+![Substance Architecture](http://interior.substance.io/images/illustrations/architecture.png)
 
 ### The Substance Composer
 
@@ -94,11 +92,11 @@ The Substance Composer is a desktop application (OSX and Linux first, Windows la
 
 ### Substance.io
 
-![](http://interior.substance.io/images/campaign/substance.png)
+![](http://interior.substance.io/images/campaign/hub.png)
 
 Anyone can create a free account on the Substance.io server and start publishing their content online in one click straight from the Composer. You can think of it as an open document repository from where you will be able to manage your published content, add it to existing networks, find other people’s public documents or export yours in any format imaginable (print, web, tablet, mobile and more).
 
-# We need your help
+# We need your help!
 
 Over the last two years, Substance has grown into a large project and has gained a lot of attention. People have been contacting us expressing their wish to integrate Substance in their application use-cases. Sadly, we have not yet reached a stage in which it can be used in production. We'd love to change that!
 
