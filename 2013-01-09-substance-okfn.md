@@ -1,4 +1,10 @@
-This is a little essay on content creation and publishing. I'm the maintainer of Substance, a software platform that aims to solve the challenges of today's digital publishing needs.
+# Towards open digital publishing with Substance
+
+I'm the maintainer of Substance, a software platform that aims to solve the challenges of today's digital publishing needs.
+
+With this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of user-driven software. With Substance we're implementing some of the proposed ideas, not only to verify their feasability but to provide an Open Source publishing system. 
+
+# Challenges of modern digital publishing
 
 ## Content Creation
 
