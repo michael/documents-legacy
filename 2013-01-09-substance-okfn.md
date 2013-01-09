@@ -26,21 +26,21 @@ Content distribution is a complex issue today. While back in the day there was j
 
 ## Solutions
 
-Over the last 2 years we did a lot of research, built a working prototype. Those are some of our conclusions that make a good digital publishing system.
+Over the last 2 years we did a lot of research and built a working prototype. Those are some of our conclusions that make a good digital publishing system.
 
 ### Separate content from presentation
 
-Many traditional publishing systems that store Rich Markup (such as HTML) only allow publishing in that same format, which is a serious limitation when it comes to multi-platform publishing. How would you turn an HTML document into a printable version? How would you optimize it for Ebook Readers that use special document formats (e.g. Amazon Kindle)? By storing content (plain text) and annotations separately, users gain the ability of transforming their documents any format they need.
+Many traditional publishing systems that store rich markup (such as HTML) only allow publishing in that same format, which is a serious limitation when it comes to multi-platform publishing. How would you turn an HTML document into a printable version? How would you optimize it for Ebook Readers that use special document formats (e.g. Amazon Kindle)? By storing content (plain text) and annotations separately, users gain the ability of transforming their documents into any format they need.
 
 ### Structured Composition
 
-By considering a document a sequence of content elements rather than one big chunk of formatted text document editors can provide a better way of writing semantically structured content, as opposed to visually optimized layouts as we know them from traditional word-processors.
+By considering a document a sequence of content elements rather than one big chunk of formatted text, document editors provide a better method of writing semantically structured content, as opposed to visually optimized layouts as we know them from traditional word-processors.
 
 ![](http://interior.substance.io/images/illustrations/semantic-writing-elements.png)
 
 ### Offline Editing
 
-We've seen the drawbacks of online publishing solutions, such as Google Docs. It turns out that providing an offline editor can significantly improve the user experience during editing as well as guaranteeing data security. Information will stay private until you synchronize your publication with a public web-server. Besides, authors can continue editing even if there's no internet connection.
+We've seen the drawbacks of online publishing solutions, such as Google Docs. It turns out that providing an offline editor can significantly improve the user experience during editing and guarantee data security. Information will stay private until users synchronize their publication with a public web-server. Besides, authors can continue editing even if there's no internet connection.
 
 ### Support for Collaboration
 
