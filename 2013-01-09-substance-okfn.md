@@ -18,7 +18,7 @@ Once the content is complete, it's time to share it with the public. Publishing 
 
 ### Change Management
 
-Even if the best review processes were applied, all published content is prone to have inconsistencies and errors. Over time, pieces of content need to be updated, additional information added, and a new edition of the document be published to ensure [eventual consistency](http://prose.io/help/eventually-consistent.html). Therefore, publishing systems must support incremental updates as well as an easy way for releasing new editions of publications.
+Even if the best review processes were applied, all published content is prone to have inconsistencies and errors. Over time, pieces of content need to be updated, additional information added, and new editions of the document published to ensure [eventual consistency](http://prose.io/help/eventually-consistent.html). Therefore, publishing systems must support incremental updates as well as an easy way for releasing new editions of publications.
 
 ### Content distribution
 
