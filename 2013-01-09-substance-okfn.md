@@ -86,4 +86,3 @@ With the help of your donation we could make it happen, which is exciting! If yo
 Lastly, here's how the Substance Composer looks in action:
 
 <iframe src="http://player.vimeo.com/video/56703462" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
