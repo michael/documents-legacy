@@ -1,6 +1,6 @@
 ## Towards open digital publishing with Substance
 
-I'm the maintainer of [Substance](http://substance.io), an open software platform for collaborative composition and sharing of digital documents. In this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of specialized user-driven software. With Substance, our team is implementing the proposed ideas, not only to verify their feasability but also to release a full-featured and free-to-use publishing system as a modern alternative to existing publishing solutions.
+I'm the maintainer of [Substance](http://substance.io), an open software platform for collaborative composition and sharing of digital documents. In this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of specialized user-driven software. With Substance, our team is implementing the proposed ideas, not only to verify their feasability but also to release a full-featured and free-to-use publishing system as a modern alternative to existing publishing solutions. 
 
 ## Challenges of modern digital publishing
 
@@ -49,35 +49,23 @@ Authoring a publication is an iterative process that may involve many authors th
 
 ### Extensibility
 
-Editing requirements are fundamentally different among application domains. While book authors are comfortable with headings, text and images, scientists may demand more advanced content types such as formulas, data-tables and visualizations to prove their research findings. Thus, publishing systems should feature a simple plugin system in order to allow user-specific content element types.
+Editing requirements are fundamentally different among application domains. While book authors are comfortable with headings, text and images, scientists may demand more advanced content types such as formulas, data-tables and visualizations to prove their research findings. Thus, publishing systems should feature a simple plugin system in order to allow user-specific content types.
 
 # Substance
 
-Substance is a content creation tool and a simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content. The new Substance eco-system consists of an offline editing tool (The Substance Composer) and an online multi-platform publishing system (Substance.io).
+Substance is a content creation tool and a simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content. 
 
 ![](http://interior.substance.io/images/campaign/substance.png)
 
-It is build around the following core ideas:
+The Substance eco-system consists of an offline editing tool (The Substance Composer) and an online multi-platform publishing system (Substance.io).
 
 ### Open Source
 
-Behind the scenes the Substance is mainly composed by a stack of open source modules that will be publicly released under the Open Source MIT license.
-
-### Built by volunteers
-
-We are a small team of three people developing Substance for two years now without any funding, making this a project fully built out of voluntary effort. Being an open source project our whole platform is going to be free for every user, so there won’t be any licence upon completion or any of the likes. 
+Behind the scenes the Substance is mainly composed by a stack of [open source](http://interior.substance.io/modules/composer.html) modules that will be publicly released under the Open Source MIT license.
 
 ### Content is data
 
 Substance considers **content as data**, which makes them accessible to computers and allows new ways of processing them. Documents can not only be viewed, they can be queried, just like a database. 
-
-You can try out how this works using the Substance Console:
-
-<iframe scrolling='no' src='http://interior.substance.io/document/' frameborder='0' height='600' width='800'>
-</iframe>
-
-Please refer to the documentation of the [Substance.Document](http://interior.substance.io/document/) module to learn how this works.
-
 
 ### Semantic editing
 
@@ -87,22 +75,13 @@ Instead of editing a big canvas, Substance documents are composed of content ele
 
 Substance comes with a predefined set of element types. Out of the box you can choose from headings, text and images. However, it is easy to implement your own element types, and use it with your tailored version of the Substance Composer.
 
-
-
-
-
-
 # Substance needs your help!
 
-Over the last two years, Substance has grown into a large project and has gained a lot of attention. People have been contacting us expressing their wish to integrate Substance in their application use-cases. Sadly, we have not yet reached a stage in which it can be used in production. We'd love to change that!
-
-So we sat down, worked out a roadmap and launched a campaign.
+Over the last two years, Substance has grown into a large project and has gained a lot of attention. People have been contacting us expressing their wish to integrate Substance in their application use-cases. Sadly, we have not yet reached a stage in which it can be used in production. We'd love to change that! So we sat down, worked out a roadmap and launched a campaign.
 
 http://pledgie.com/campaigns/18902
 
-The goal of this campaign is to get Substance out of experimental state into a usable release. However, the more concrete our goals get, the more we see the need to spend dedicated time on it, in order to come to the day when we can say “It’s finally here!”.
-
-With the help of your donation we could make it happen, which is exciting! If you like the idea proposed and want to see them in action, support us with your donation. For orientation: With a donation of 400 EUR you can fund a full day of Substance development involving 3 developers.
+With the help of your donation we could make it happen, which is exciting! If you like the ideas proposed and want to see them in action, support us with your donation. For orientation: With a donation of 400 EUR you can fund a full day of Substance development involving 3 developers.
 
 Lastly, here's how Substance looks in action:
 
