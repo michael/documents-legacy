@@ -1,6 +1,6 @@
-## Towards open digital publishing with Substance
+## Content as Data: Towards Open Digital Publishing with Substance
 
-I'm the maintainer of [Substance](http://substance.io), an open software platform for collaborative composition and sharing of digital documents. In this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of specialized user-driven software. With Substance, our team is implementing the proposed ideas, not only to verify their feasability but also to release a full-featured and free-to-use publishing system as a modern alternative to existing publishing solutions. 
+I'm the maintainer of [Substance](http://substance.io), an open software platform for collaborative composition and sharing of digital documents. In this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of specialized user-driven software. With Substance, our team is implementing the proposed ideas, not only to verify their feasability but also to release a [crowd-funded](http://pledgie.com/campaigns/18902) open source publishing system as a modern alternative to existing publishing solutions.
 
 ## Challenges of modern digital publishing
 
@@ -34,7 +34,7 @@ Many traditional publishing systems store rich markup (such as HTML) and thus on
 
 ### Structured Composition
 
-By considering a document a sequence of content elements rather than one big chunk of formatted text, document editors provide a better method of writing semantically structured content, as opposed to visually optimized layouts as we know them from traditional word-processors.
+By considering a document a sequence of content elements rather than one big chunk of formatted text, document editors can provide a better way of writing semantically structured content, as opposed to visually optimized layouts as we know them from traditional word-processors.
 
 ![](http://interior.substance.io/images/illustrations/semantic-writing-elements.png)
 
@@ -46,14 +46,14 @@ We've seen the drawbacks of fully web-based publishing solutions, such as high l
 
 Authoring a publication is an iterative process that may involve many authors that are able to simultaneously edit a single document. During that process users should be enabled to add markers and comments to certain text fragments. Markers and comments should stay out of the user's way, and only be shown contextually (e.g. when the text cursor is matching the corresponding marker).
 
-
 ### Extensibility
 
-Editing requirements are fundamentally different among application domains. While book authors are comfortable with headings, text and images, scientists may demand more advanced content types such as formulas, data-tables and visualizations to prove their research findings. Thus, publishing systems should feature a simple plugin system in order to allow user-specific content types.
+Editing requirements are fundamentally different among application domains. While book authors are comfortable with headings, text and images, scientists may demand more advanced content types such as formulas, data-tables and visualizations to prove their research findings. Publishing systems should feature a simple plugin system in order to allow user-specific content types.
+
 
 # Substance
 
-Substance is a content creation tool and a simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content. It is being built with the idea of Open Knowledge in mind. So if you'd like to create and share public information, open access research or public domain texts, Substance is for you.
+Substance is a content creation tool and a simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content. It is being built with the idea of Open Knowledge in mind. So if you'd like to create and share public information, open access research or public domain texts, Substance may be for you.
 
 ![](http://interior.substance.io/images/campaign/substance.png)
 
@@ -61,7 +61,7 @@ The Substance eco-system consists of an offline editing tool (The Substance Comp
 
 ### Open Source
 
-Behind the scenes Substance is mainly composed by a stack of [open source modules](http://interior.substance.io/modules/composer.html) that will be publicly released under the Open Source MIT license, so anyone can contribute and help developing an open standard for annotated text. Substance is meant to be an interoperable platform, rather than a product. It's infrastructure can be used by anyone to build specialized applications on top of it.
+Behind the scenes Substance is mainly composed by a stack of [open source modules](http://interior.substance.io/modules/composer.html) that are publicly released under the Open Source MIT license, so anyone can contribute and help developing an open standard for annotated text. Substance is meant to be an interoperable platform, rather than a product. It's infrastructure can be used by anyone to build specialized applications on top of it.
 
 ### Content is data
 
@@ -77,14 +77,13 @@ Substance comes with a predefined set of element types. Out of the box you can c
 
 # Substance needs your help!
 
-Over the last two years, Substance has grown into a large project and has gained a lot of attention. People have been contacting us expressing their wish to integrate Substance in their application use-cases. Sadly, we have not yet reached a stage in which it can be used in production. We'd love to change that! So we sat down, worked out a roadmap and launched a campaign.
+After an experimental phase of two years now, our next goal is getting it ready for production. So we sat down, worked out a roadmap and launched a campaign to back development costs.
 
 http://pledgie.com/campaigns/18902
 
-With the help of your donation we could make it happen, which is exciting! If you like the ideas proposed and want to see them in action, support us with your donation. For orientation: With a donation of 400 EUR you can fund a full day of Substance development involving 3 developers.
+With the help of your donation we could make it happen, which is exciting! If you like the ideas proposed and want to see them in action, support us. For orientation: With a donation of 400 EUR you can fund a full day of Substance development involving 3 developers. But even 10 EUR help us to push the platform forward. Thank you!
 
-
-Lastly, here's how Substance looks in action:
+Lastly, here's how the Substance Composer looks in action:
 
 <iframe src="http://player.vimeo.com/video/56703462" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
