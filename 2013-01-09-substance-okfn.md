@@ -53,15 +53,16 @@ Editing requirements are fundamentally different among application domains. Whil
 
 # Substance
 
-Substance is a content creation tool and a simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content. 
+Substance is a content creation tool and a simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content. It is being built with the idea of Open Knowledge in mind. So if you'd like to create and share public information, open access research or public domain texts, Substance is for you.
 
 ![](http://interior.substance.io/images/campaign/substance.png)
 
 The Substance eco-system consists of an offline editing tool (The Substance Composer) and an online multi-platform publishing system (Substance.io).
 
+
 ### Open Source
 
-Behind the scenes the Substance is mainly composed by a stack of [open source](http://interior.substance.io/modules/composer.html) modules that will be publicly released under the Open Source MIT license.
+Behind the scenes Substance is mainly composed by a stack of [open source modules](http://interior.substance.io/modules/composer.html) that will be publicly released under the Open Source MIT license, so anyone can contribute and help developing an open standard for annotated text. Substance is meant to be an interoperable platform, rather than a product. It's infrastructure can be used by anyone to build specialized applications on top of it.
 
 ### Content is data
 
