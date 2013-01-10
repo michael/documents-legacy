@@ -26,7 +26,7 @@ Content distribution is becoming an increasingly complex issue today. Back in th
 
 ## Solutions
 
-Over the last 2 years we did a lot of research and built a working prototype, Substance. These are some of our conclusions that we believe make a good digital publishing system.
+Over the last 2 years we did a lot of research and built a working prototype, Substance. Those are some of our conclusions that we believe make a good digital publishing system.
 
 ### Separate content from presentation
 
@@ -46,13 +46,10 @@ We've seen the drawbacks of fully web-based publishing solutions, such as high l
 
 Authoring a publication is an iterative process that may involve many authors that are able to simultaneously edit a single document. During that process users should be enabled to add markers and comments to certain text fragments. Markers and comments should stay out of the user's way, and only be shown contextually (e.g. when the text cursor is matching the corresponding marker).
 
-### Operational Transformation
-
-Instead or in addition to storing the current state of the document, it advantageous to capture a sequence of operations that have been applied to the document. Instead of describing a document by its state (e.g. it has a section, followed by a paragraph) it can be described using a sequence of operations executed by the user (insert section, insert paragraph after section respectively). By doing so, the full evoluationary history of a document can be accessed and time travels are possible. Not only document content is versioned, also annotations and comments that stick on the content. Furthermore Operational Transformation forms the basis for collaborative editing features.
 
 ### Extensibility
 
-Editing requirements are fundamentally different among application domains. While book authors are comfortable with headings, text and images, scientists may demand more advanced content types such as formulas, data-tables and visualizations to prove their research findings.
+Editing requirements are fundamentally different among application domains. While book authors are comfortable with headings, text and images, scientists may demand more advanced content types such as formulas, data-tables and visualizations to prove their research findings. Thus, publishing systems should feature a simple plugin system in order to allow user-specific content element types.
 
 # Substance
 
@@ -75,14 +72,11 @@ Instead of editing a big canvas, Substance documents are composed of content ele
 
 ### Custom Element Types
 
-Substance comes with a predfined set of element types. Out of the box you can choose from headings, text and images. However, it is easy to implement your own element types, and use it with your tailored version of the Substance Composer.
+Substance comes with a predefined set of element types. Out of the box you can choose from headings, text and images. However, it is easy to implement your own element types, and use it with your tailored version of the Substance Composer.
 
 
-### Architecture
-
-The new Substance eco-system consists of an offline editing tool (The Substance Composer) and an online multi-platform publishing system (Substance.io).
-
-![Substance Architecture](http://interior.substance.io/images/illustrations/architecture.png)
+<!--
+![Substance Architecture](http://interior.substance.io/images/illustrations/architecture.png)-->
 
 ### The Substance Composer
 
