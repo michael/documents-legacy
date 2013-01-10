@@ -59,7 +59,6 @@ Substance is a content creation tool and a simple multi-format publishing platfo
 
 The Substance eco-system consists of an offline editing tool (The Substance Composer) and an online multi-platform publishing system (Substance.io).
 
-
 ### Open Source
 
 Behind the scenes Substance is mainly composed by a stack of [open source modules](http://interior.substance.io/modules/composer.html) that will be publicly released under the Open Source MIT license, so anyone can contribute and help developing an open standard for annotated text. Substance is meant to be an interoperable platform, rather than a product. It's infrastructure can be used by anyone to build specialized applications on top of it.
@@ -83,6 +82,7 @@ Over the last two years, Substance has grown into a large project and has gained
 http://pledgie.com/campaigns/18902
 
 With the help of your donation we could make it happen, which is exciting! If you like the ideas proposed and want to see them in action, support us with your donation. For orientation: With a donation of 400 EUR you can fund a full day of Substance development involving 3 developers.
+
 
 Lastly, here's how Substance looks in action:
 
