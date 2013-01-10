@@ -53,7 +53,19 @@ Editing requirements are fundamentally different among application domains. Whil
 
 # Substance
 
-Substance is a content creation tool and a simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content. It is build around the following core ideas:
+Substance is a content creation tool and a simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content. The new Substance eco-system consists of an offline editing tool (The Substance Composer) and an online multi-platform publishing system (Substance.io).
+
+![](http://interior.substance.io/images/campaign/substance.png)
+
+It is build around the following core ideas:
+
+### Open Source
+
+Behind the scenes the Substance is mainly composed by a stack of open source modules that will be publicly released under the Open Source MIT license.
+
+### Built by volunteers
+
+We are a small team of three people developing Substance for two years now without any funding, making this a project fully built out of voluntary effort. Being an open source project our whole platform is going to be free for every user, so there won’t be any licence upon completion or any of the likes. 
 
 ### Content is data
 
@@ -66,6 +78,7 @@ You can try out how this works using the Substance Console:
 
 Please refer to the documentation of the [Substance.Document](http://interior.substance.io/document/) module to learn how this works.
 
+
 ### Semantic editing
 
 Instead of editing a big canvas, Substance documents are composed of content elements. While existing solutions (like Google Docs) bring traditional word-processing to the web, Substance focusses on content, by leaving the layout part to the system, not the user. Because of the absence of formatting utilities, it suggests structured content-oriented writing.
@@ -75,20 +88,9 @@ Instead of editing a big canvas, Substance documents are composed of content ele
 Substance comes with a predefined set of element types. Out of the box you can choose from headings, text and images. However, it is easy to implement your own element types, and use it with your tailored version of the Substance Composer.
 
 
-<!--
-![Substance Architecture](http://interior.substance.io/images/illustrations/architecture.png)-->
 
-### The Substance Composer
 
-![](http://interior.substance.io/images/campaign/substance.png)
 
-The [Substance Composer](interior.substance.io/modules/composer.html) is a desktop application (OSX and Linux first, Windows later), where you create and manage digital documents. While traditional text editors usually deal with visual information (emulating its representations on paper), the Substance Composer is developed around the idea that content is data. Its structured document composition allows documents to be stored and represented in multiple arbitrary ways. On top of that, with its collaborative features you can annotate, comment and revise your content with anyone. 
-
-### Substance.io
-
-![](http://interior.substance.io/images/campaign/hub.png)
-
-Anyone can create a free account on the Substance.io server and start publishing their content online in one click straight from the Composer. You can think of it as an open document repository from where you will be able to manage your published content, add it to existing networks, find other people’s public documents or export yours in any format imaginable (print, web, tablet, mobile and more).
 
 # Substance needs your help!
 
