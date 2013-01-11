@@ -53,7 +53,7 @@ Editing requirements are fundamentally different among application domains. Whil
 
 # Substance
 
-Substance is a content creation tool and a simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content. It is being built with the idea of Open Knowledge in mind. So if you'd like to create and share public information, open access research or public domain texts, Substance may be for you.
+Substance is a content creation tool and a simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content. It is being built with the idea of Open Knowledge in mind. So if you'd like to publish, comment on and collaborate around public documents, open access research or public domain texts, Substance may be for you.
 
 ![](http://interior.substance.io/images/campaign/substance.png)
 
@@ -81,7 +81,7 @@ After an experimental phase of two years now, our next goal is getting it ready 
 
 http://pledgie.com/campaigns/18902
 
-With the help of your donation we could make it happen, which is exciting! If you like the ideas proposed and want to see them in action, support us. For orientation: With a donation of 400 EUR you can fund a full day of Substance development involving 3 developers. But even 10 EUR help us to push the platform forward. Thank you!
+With the help of your donation we could make it happen, which is exciting! If you like the ideas proposed and want to see them in action, please support us.
 
 Lastly, here's how the Substance Composer looks in action:
 
