@@ -88,7 +88,7 @@ Substance stellt eine Reihe vordefinierter Inhaltstypen zur Verfügung. Benutzer
 
 # Unterstützen Sie die Entwicklung von Substance
 
-Nach einer experimentellen Phase von 2 Jahren konzentriert sich das Team um Substance derzeit darauf eine stabile, Dazu wurde eine Roadmap erstellt und eine Crowd-Funding Kampagne gestartet um die Entwicklungskosten zu decken.
+Nach einer zweijährigen experimentellen Phase konzentriert sich das Team um Substance derzeit darauf eine stabile und funktional vollständige Version zu veröffentlichen. Dazu wurde eine Roadmap erstellt und eine Crowd-Funding Kampagne gestartet um die Entwicklungskosten zu decken.
 
 http://pledgie.com/campaigns/18902
 
