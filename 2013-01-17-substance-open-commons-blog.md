@@ -19,8 +19,8 @@ Um die Qualität und Konsistenz von digitalen Inhalten zu gewährleisten, müsse
 
 ### Publishing
 
+Sobald die Inhalte in angemessener Qualität zur Verfügung stehen werden Sie der Öffentlichkeit zugänglich gemacht. Das Publizieren von Inhalten war in der Vergangenheit ein relativ langwieriger und kostspieliger Prozess, der manuelles eingreifen von Experten erforderte. Mit Hilfe von Software-Werkzeugen kann dieser Teil automatisiert werden. Autoren sollten dabei in der Lage sein, ihre Arbeit selbstständig zu veröffentlichen, ohne die Notwendigkeit von manuellen Schritten.
 
-Once the content is complete, it's time to share it with the public. Publishing used to be a manual process involving expert knowledge and consuming a substantial amount of time. Software tools are created to automatize that part. Authors should be able to share their work online themselves, without any manual steps being necessary.
 
 ### Change Management
 
