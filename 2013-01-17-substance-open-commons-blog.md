@@ -1,27 +1,24 @@
 ## Inhalte als Daten: Offenes digitales Publizieren mit Substance
 
-Die Erstellung von Inhalten sowie deren Verteilung stellt uns im digitalen Zeitalter vor eine Reihe neuer Herausforderungen. In diesem Artikel werden zunächst Anforderungen skizziert, die an ein modernes Publikationssystem gestellt werden. In einem weiteren Schritt werden Lösungsansätze dargestellt, wie mit Hilfe Benutzer-orientierter Software.
+Die Erstellung von Inhalten sowie deren Verteilung stellt uns im digitalen Zeitalter vor eine Reihe neuer Herausforderungen. In diesem Artikel werden zunächst Anforderungen skizziert, die an ein modernes Publikationssystem gestellt werden. In einem weiteren Schritt werden Lösungsansätze dargestellt, wie diese Anforderungen mit Hilfe Benutzer-orientierter Software umgesetzt werden können.
 
-Mit Substance, einer offenen Plattform zur kollaborativen Erstellung und Verteilung von digitalen Inhalten wird ein Projekt vorgestellt das diese Lösungsansätze umsetzt. Die Entwicklung von Substance erfolgt öffentlich, finanziert wird das Projekt mittels [Crowd-Funding](http://pledgie.com/campaigns/18902).
+Mit Substance, einer offenen Plattform zur kollaborativen Erstellung und Verteilung von digitalen Inhalten möchten wir ausserdem ein Projekt vorstellen, das diese Lösungsansätze aufgreift und umsetzt. Die Entwicklung von Substance erfolgt öffentlich, finanziert wird das Projekt mittels [Crowd-Funding](http://pledgie.com/campaigns/18902). Es soll als moderne Alternative zu existierenden Publikationssystemen dienen.
 
 
-Substance ist eine offene Software Plattform zur kollaborativen Erstellung und Verteilung von digitalen Inhalten. 
-
-I'm the maintainer of [Substance](http://substance.io), an open software platform for collaborative composition and sharing of digital documents. In this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of specialized user-driven software. With Substance, our team is implementing the proposed ideas, not only to verify their feasability but also to release a [crowd-funded](http://pledgie.com/campaigns/18902) open source publishing system as a modern alternative to existing publishing solutions.
-
-## Challenges of modern digital publishing
+## Anforderungen an moderne Publikationssysteme
 
 ### Inhaltserstellung
 
-Inhalte müssen zunächst erstellt werden. Text muss verfasst, annotiert und strukturiert werden. Bilder, Tabellen und Listen sind zu ergänzen. 
+Inhalte müssen zunächst erstellt werden. Text muss verfasst, annotiert und strukturiert werden. Bilder, Tabellen und Listen sind zu ergänzen. Heutzutage wird auch die Unterstützung für interaktive Inhalte (Visualisierungen, interaktive Karten) immer wichtiger und sollte vom Publikationssystem unterstützt werden.
 
-At the beginning there is content creation. Text needs to be written, annotated and structured. Images, tables and lists need to be added. Today, the addition of interactive content (such as visualizations, interactive maps, etc.) becomes increasingly important and should be supported by publishing systems.
 
-### Quality Management
+### Qualitätsmanagement
 
-In order to ensure quality and consistency of digital content, publishers need to setup a peer-review workflow. Publishing systems must provide means for reviewers to *suggest ideas*, *report errors* and offer an easy way of *communication* between reviewers and authors.
+Um die Qualität und Konsistenz von digitalen Inhalten zu gewährleisten, müssen Verleger sogenenannte Peer-Review Workflows implementieren. Publikationssysteme müssen solche Workflows untersützten. Dabei muss es möglich sein Änderungen vorzuschlagen, Fehler zu melden, sowie mit dem Autor über einen direkten Kommunikationsweg in Verbindung zu treten.
+
 
 ### Publishing
+
 
 Once the content is complete, it's time to share it with the public. Publishing used to be a manual process involving expert knowledge and consuming a substantial amount of time. Software tools are created to automatize that part. Authors should be able to share their work online themselves, without any manual steps being necessary.
 
