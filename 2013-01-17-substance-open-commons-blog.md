@@ -1,38 +1,40 @@
 ## Inhalte als Daten: Offenes digitales Publizieren mit Substance
 
-Die Erstellung von Inhalten sowie deren Verteilung stellt uns im digitalen Zeitalter vor eine Reihe neuer Herausforderungen. In diesem Artikel werden zunächst Anforderungen skizziert, die an ein modernes Publikationssystem gestellt werden. In einem weiteren Schritt werden Lösungsansätze dargestellt, wie diese Anforderungen mit Hilfe Benutzer-orientierter Software umgesetzt werden können.
+Die Erstellung von Inhalten sowie deren Verteilung stellt uns im digitalen Zeitalter vor eine Reihe neuer Herausforderungen. In diesem Artikel werden zunächst Anforderungen skizziert, die an moderne Publikationssysteme gestellt werden. In einem weiteren Schritt werden Lösungsansätze dargestellt, wie diese Anforderungen mit Hilfe Benutzer-orientierter Software umgesetzt werden können.
 
-Mit Substance, einer offenen Plattform zur kollaborativen Erstellung und Verteilung von digitalen Inhalten möchten wir ausserdem ein Projekt vorstellen, das diese Lösungsansätze aufgreift und umsetzt. Die Entwicklung von Substance erfolgt öffentlich, finanziert wird das Projekt mittels [Crowd-Funding](http://pledgie.com/campaigns/18902). Es soll als moderne Alternative zu existierenden Publikationssystemen dienen.
+Mit [Substance](http://interior.substance.io), einer offenen Plattform zur kollaborativen Erstellung und Verteilung von digitalen Inhalten möchten wir ausserdem ein Projekt vorstellen, das diese Lösungsansätze aufgreift und umsetzt. Die Entwicklung von Substance erfolgt öffentlich, finanziert wird das Projekt mittels [Crowd-Funding](http://pledgie.com/campaigns/18902). Es soll als moderne Alternative zu existierenden Publikationssystemen dienen.
 
 
 ## Anforderungen an moderne Publikationssysteme
 
 ### Inhaltserstellung
 
-Inhalte müssen zunächst erstellt werden. Text muss verfasst, annotiert und strukturiert werden. Bilder, Tabellen und Listen sind zu ergänzen. Heutzutage wird auch die Unterstützung für interaktive Inhalte (Visualisierungen, interaktive Karten) immer wichtiger und sollte vom Publikationssystem unterstützt werden.
+Inhalte müssen zunächst erstellt werden. Dabei wird Text verfasst, annotiert und strukturiert. Bilder, Tabellen und Listen sind zu ergänzen. Heutzutage wird auch die Unterstützung für interaktive Inhalte (Visualisierungen, interaktive Karten) immer wichtiger und sollte vom Publikationssystem unterstützt werden.
 
 
 ### Qualitätsmanagement
 
-Um die Qualität und Konsistenz von digitalen Inhalten zu gewährleisten, müssen Verleger sogenenannte Peer-Review Workflows implementieren. Publikationssysteme müssen solche Workflows untersützten. Dabei muss es möglich sein Änderungen vorzuschlagen, Fehler zu melden, sowie mit dem Autor über einen direkten Kommunikationsweg in Verbindung zu treten.
+Um die Qualität und Konsistenz von digitalen Inhalten zu gewährleisten, müssen Verleger sogenenannte [Peer-Review](http://de.wikipedia.org/wiki/Peer-Review) Workflows implementieren. Publikationssysteme müssen solche Workflows untersützten. Dabei muss es möglich sein Änderungen vorzuschlagen, Fehler zu melden, sowie mit dem Autor über einen direkten Kommunikationsweg in Verbindung zu treten.
 
 
-### Publishing
+### Publikation
 
 Sobald die Inhalte in angemessener Qualität zur Verfügung stehen werden Sie der Öffentlichkeit zugänglich gemacht. Das Publizieren von Inhalten war in der Vergangenheit ein relativ langwieriger und kostspieliger Prozess, der manuelles eingreifen von Experten erforderte. Mit Hilfe von Software-Werkzeugen kann dieser Teil automatisiert werden. Autoren sollten dabei in der Lage sein, ihre Arbeit selbstständig zu veröffentlichen, ohne die Notwendigkeit von manuellen Schritten.
 
-
 ### Change Management
 
-Even if the best review processes were applied, all published content is prone to have inconsistencies and errors. Over time, pieces of content need to be updated, additional information added, and new editions of the document published to ensure [eventual consistency](http://prose.io/help/eventually-consistent.html). Therefore, publishing systems must support incremental updates as well as an easy way for releasing new editions of publications.
+Selbst nach Anwendung aufwendiger und ausgereifter Review-Prozesse sind Inhalte immer anfällig für Unstimmigkeiten und Fehler. Über die Zeit müssen Teile des Inhalts aktualisiert, zusätzliche Informationen hinzugefügt, und neue Editionen des Dokuments publiziert werden. Aus diesem Grund müssen Publikationssysteme inkrementelle Updates unterstützen, sowie einen einfachen Weg neue Editionen zu veröffentlichen.
 
-### Content distribution
+### Inhaltsverteilung
 
-Content distribution is becoming an increasingly complex issue today. Back in the day there was just paper, but today content is also consumed electronically on different platforms: On the web, in Ebook Readers and on Smartphones. And they are all different. There needs to be a smart mechanism that automagically turns one publication into a variety of formats (ePub, HTML, PDF) so as a publisher, you don't have to prepare versions for each and every targeted platform.
+Die Verteilung 
+
+In der Vergangenheit galt es Inhalte auf Papier zu drucken, während Informationen heute ebenso elektronisch auf unterschiedlichsten Plattformen (Web, Ebook Readers, Smartphones, etc.) konsumiert werden. Diese Plattformen unterscheiden sich grundlegend. Wünschenswert wäre ein intelligenter Mechanismus der eine Publikation automatisch in eine Vielzahl von Formaten konvertiert (z.B. ePub, HTML, PDF). Damit müssten nicht länger einzelne versionen für jede Plattform manuell erstellt werden.
 
 ## Solutions
 
-Over the last 2 years we did a lot of research and built a working prototype, Substance. Those are some of our conclusions that we believe make a good digital publishing system.
+Im Rahmen der Arbeit an [Substance](http://substance.io) fanden viele Untersuchungen statt. Basierend auf diesen Recherchen möchten wir hier einige Lösungsansätze anführen, die bei der Entwicklung eines digitalen Publikationssystem wichtig sind.
+
 
 ### Separate content from presentation
 
