@@ -26,16 +26,14 @@ Selbst nach Anwendung aufwendiger und ausgereifter Review-Prozesse sind Inhalte 
 
 ### Inhaltsverteilung
 
-Die Verteilung 
 
-In der Vergangenheit galt es Inhalte auf Papier zu drucken, während Informationen heute ebenso elektronisch auf unterschiedlichsten Plattformen (Web, Ebook Readers, Smartphones, etc.) konsumiert werden. Diese Plattformen unterscheiden sich grundlegend. Wünschenswert wäre ein intelligenter Mechanismus der eine Publikation automatisch in eine Vielzahl von Formaten konvertiert (z.B. ePub, HTML, PDF). Damit müssten nicht länger einzelne versionen für jede Plattform manuell erstellt werden.
+In der Vergangenheit galt es Inhalte auf Papier zu drucken, während Informationen heute ebenso elektronisch auf unterschiedlichsten Plattformen (Web, Ebook Readers, Smartphones, etc.) konsumiert werden. Diese Plattformen unterscheiden sich grundlegend. Wünschenswert wäre ein intelligenter Mechanismus, der eine Publikation automatisch in eine Vielzahl von Formaten konvertiert (z.B. ePub, HTML, PDF). Damit müssten nicht länger einzelne versionen für jede Plattform manuell erstellt werden.
 
-## Solutions
+## Lösungsansätze
 
 Im Rahmen der Arbeit an [Substance](http://substance.io) fanden viele Untersuchungen statt. Basierend auf diesen Recherchen möchten wir hier einige Lösungsansätze anführen, die bei der Entwicklung eines digitalen Publikationssystem wichtig sind.
 
-
-### Trennung von Inhalt und Darstellung
+### Trennung von Inhalt und Präsentation
 
 Viele traditionelle Publikationssysteme speichern Text mittels spezieller Auszeichnungssprachen wie HTML. Diese Systeme sind zumeist auf eben dieses eine Ausgabeformat beschränkt, was eine große Limitierung bedeutet. Wie soll ein HTML Dokument in eine ansprechende druckbare Version umgewandelt werden? Wie sollen diese Dokumente für Ebook Reader optimiert werden, die spezielle Formate erfordern (z.B. Amazon Kindle)? Abhilfe schafft die separate Speicherung von Struktur, Plaintext und Annotationen. Dadurch können Benutzer ihre Dokumente in beliebige Ausgabeformate konvertieren.
 
@@ -51,11 +49,11 @@ Herkömmliche Textverarbeitungssysteme betrachten Dokumente als einen durchgehen
 
 Rein web-basierte Lösung haben oft den Nachteil langer Antwortzeiten und Datenverlust über unstabile Leitungen. Offline Editoren können die Benutzerfreundlichkeit empfindlich verbessern und zudem Datensicherheit bieten. Informationen bleiben solange privat bis der Benutzer entscheidet seine Publikation mit einem öffentlichen Webserver zu synchronisieren. Benutzer können mit dem Schreiben des Dokuments fortfahren auch wenn keine aktive Internetverbindung besteht.
 
-### Support for Collaboration
+### Kollaboration
 
 Die Erstellung einer Publikation ist ein iterativer Prozess der oft durch mehrere Autoren bewerkstelligt wird. Dies passiert teilweise simulatan. Daher ist es wichtig den Benutzern Werkzeuge zur Kollabation bereitzustellen. Textteile sollen individuell markiert und kommentiert werden können.
 
-### Extensibility
+### Erweiterbarkeit
 
 Die Anforderungen an die Inhaltserstellung variert stark zwischen unterschiedlichen Anwendungsdomänen. Während Buchautoren mit traditionellen Inhaltstypen (Überschrift, Text, Bild) arbeiten können, benötigen Wissenschaftler für ihre Publikationen erweiterte Inhaltstypen wie Formeln und Visualisierungen um deren Ergebnisse untermauern zu können. Aus diesem Grund sollten Publikationsysteme hinsichtlich deren unterstützer Inhaltstypen erweiterbar sein. Dadurch können technisch versierte Benutzer fehlende Funktionalität selbst nachrüsten und der Community zur Verfügung stellen.
 
@@ -85,16 +83,19 @@ Substance Dokumente bestehen aus Content Elemementen. Während existierende Lös
 
 ### Erweiterbare Inhaltstypen
 
-Substance comes with a predefined set of element types. Out of the box you can choose from headings, text and images. However, it is easy to implement your own element types, and use it with your tailored version of the Substance Composer.
+Substance stellt eine Reihe vordefinierter Inhaltstypen zur Verfügung. Benutzer können zwischen Überschriften, Text und Bildern wählen. Jedoch können jederzeit neue Inhaltstypen implementiert und verwendet werden.
 
-# Substance needs your help!
 
-After an experimental phase of two years now, our next goal is getting it ready for production. So we sat down, worked out a roadmap and launched a campaign to back development costs.
+# Unterstützen Sie die Entwicklung von Substance
+
+Nach einer experimentellen Phase von 2 Jahren konzentriert sich das Team um Substance derzeit darauf eine stabile, Dazu wurde eine Roadmap erstellt und eine Crowd-Funding Kampagne gestartet um die Entwicklungskosten zu decken.
 
 http://pledgie.com/campaigns/18902
 
-With the help of your donation we could make it happen, which is exciting! If you like the ideas proposed and want to see them in action, please support us.
+Befürworter dieser Idee sind hiermit aufgerufen zu spenden, um mitzuhelfen die Entwicklungskosten dieses Systems zu decken.
 
-Lastly, here's how the Substance Composer looks in action:
+Abschließend ein Video, das die Funktionsweise des Editors demonstriert.
 
 <iframe src="http://player.vimeo.com/video/56703462" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+(Original-Artikel: http://blog.okfn.org/2013/01/15/content-as-data-towards-open-digital-publishing-with-substance/)
