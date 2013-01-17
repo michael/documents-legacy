@@ -1,5 +1,10 @@
 ## Inhalte als Daten: Offenes digitales Publizieren mit Substance
 
+Die Erstellung von Inhalten sowie deren Verteilung stellt uns im digitalen Zeitalter vor eine Reihe neuer Herausforderungen. In diesem Artikel werden zunächst Anforderungen skizziert, die an ein modernes Publikationssystem gestellt werden. In einem weiteren Schritt werden Lösungsansätze dargestellt, wie mit Hilfe Benutzer-orientierter Software.
+
+Mit Substance, einer offenen Plattform zur kollaborativen Erstellung und Verteilung von digitalen Inhalten wird ein Projekt vorgestellt das diese Lösungsansätze umsetzt. Die Entwicklung von Substance erfolgt öffentlich, finanziert wird das Projekt mittels [Crowd-Funding](http://pledgie.com/campaigns/18902).
+
+
 Substance ist eine offene Software Plattform zur kollaborativen Erstellung und Verteilung von digitalen Inhalten. 
 
 I'm the maintainer of [Substance](http://substance.io), an open software platform for collaborative composition and sharing of digital documents. In this little essay, I'd like to sketch the challenges that modern publishing systems face today. I'd also like to come up with ideas how the complexity can be handled with the help of specialized user-driven software. With Substance, our team is implementing the proposed ideas, not only to verify their feasability but also to release a [crowd-funded](http://pledgie.com/campaigns/18902) open source publishing system as a modern alternative to existing publishing solutions.
@@ -8,7 +13,7 @@ I'm the maintainer of [Substance](http://substance.io), an open software platfor
 
 ### Inhaltserstellung
 
-Inhalte müssen zunächst erstellt werden. Text 
+Inhalte müssen zunächst erstellt werden. Text muss verfasst, annotiert und strukturiert werden. Bilder, Tabellen und Listen sind zu ergänzen. 
 
 At the beginning there is content creation. Text needs to be written, annotated and structured. Images, tables and lists need to be added. Today, the addition of interactive content (such as visualizations, interactive maps, etc.) becomes increasingly important and should be supported by publishing systems.
 
