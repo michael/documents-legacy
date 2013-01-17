@@ -51,37 +51,39 @@ Herkömmliche Textverarbeitungssysteme betrachten Dokumente als einen durchgehen
 
 Rein web-basierte Lösung haben oft den Nachteil langer Antwortzeiten und Datenverlust über unstabile Leitungen. Offline Editoren können die Benutzerfreundlichkeit empfindlich verbessern und zudem Datensicherheit bieten. Informationen bleiben solange privat bis der Benutzer entscheidet seine Publikation mit einem öffentlichen Webserver zu synchronisieren. Benutzer können mit dem Schreiben des Dokuments fortfahren auch wenn keine aktive Internetverbindung besteht.
 
-
 ### Support for Collaboration
 
-Authoring a publication is an iterative process that may involve many authors that are able to simultaneously edit a single document. During that process users should be enabled to add markers and comments to certain text fragments. Markers and comments should stay out of the user's way, and only be shown contextually (e.g. when the text cursor is matching the corresponding marker).
+Die Erstellung einer Publikation ist ein iterativer Prozess der oft durch mehrere Autoren bewerkstelligt wird. Dies passiert teilweise simulatan. Daher ist es wichtig den Benutzern Werkzeuge zur Kollabation bereitzustellen. Textteile sollen individuell markiert und kommentiert werden können.
 
 ### Extensibility
 
-Editing requirements are fundamentally different among application domains. While book authors are comfortable with headings, text and images, scientists may demand more advanced content types such as formulas, data-tables and visualizations to prove their research findings. Publishing systems should feature a simple plugin system in order to allow user-specific content types.
-
+Die Anforderungen an die Inhaltserstellung variert stark zwischen unterschiedlichen Anwendungsdomänen. Während Buchautoren mit traditionellen Inhaltstypen (Überschrift, Text, Bild) arbeiten können, benötigen Wissenschaftler für ihre Publikationen erweiterte Inhaltstypen wie Formeln und Visualisierungen um deren Ergebnisse untermauern zu können. Aus diesem Grund sollten Publikationsysteme hinsichtlich deren unterstützer Inhaltstypen erweiterbar sein. Dadurch können technisch versierte Benutzer fehlende Funktionalität selbst nachrüsten und der Community zur Verfügung stellen.
 
 # Substance
 
-Substance is a content creation tool and a simple multi-format publishing platform. Whether you produce stories, books, documentations or scientific papers, Substance provides the tools that allow you to create, manage and share your content. It is being built with the idea of Open Knowledge in mind. So if you'd like to publish, comment on and collaborate around public documents, open access research or public domain texts, Substance may be for you.
+Substance ist ein Sotware-System zur Erstellung und Publikation digitaler Inhalte. Substance untersützt die Erstellung von Büchern, Dokumentationen und wissenschaftlichen Publikationen gleichsam. Es besteht aus einem Editor (Substance Composer) und einer Online-Publikationsplattform (Substance.io).
 
 ![](http://interior.substance.io/images/campaign/substance.png)
 
-The Substance eco-system consists of an offline editing tool (The Substance Composer) and an online multi-platform publishing system (Substance.io).
+Das Projekt folgt der Idee von Freiem Wissen, und eignet sich beispielsweise für die Erstellung und Veröffentlichung von Public Domain Texten.
+
 
 ### Open Source
 
-Behind the scenes Substance is mainly composed by a stack of [open source modules](http://interior.substance.io/modules/composer.html) that are publicly released under the Open Source MIT license, so anyone can contribute and help developing an open standard for annotated text. Substance is meant to be an interoperable platform, rather than a product. It's infrastructure can be used by anyone to build specialized applications on top of it.
+Substance besteht aus mehreren Komponenten die fast gänzlich frei als [Open Source Module](http://interior.substance.io/modules/composer.html) zur Verfügung stehen. Diese Module werden unter der Open Souce MIT Lizenz veröffentlicht und können von jedermann weiterentwickelt werden. Ziel ist es Substance als offene Plattform zu etabliern. Die Infrastruktur kann ohne Einschränkungen genutzt werden und ermöglicht die Entwicklen von spezialiserten Anwendungen.
 
-### Content is data
 
-Substance considers **content as data**, which makes them accessible to computers and allows new ways of processing them. Documents can not only be viewed, they can be queried, just like a database. 
+### Inhalte als Daten
 
-### Semantic editing
+Substance behandelt **Inhalte als Daten**, wodurch sie auch für die elektronsische Weiterverarbeitung zugänglich werden. Dadurch ergeben sich vielfältige neue Möglichkeiten der Verwendung. Dokument können nicht länger nur angezeigt, stattdessen wie eine Datenbank abgefragt werden.
 
-Instead of editing a big canvas, Substance documents are composed of content elements. While existing solutions (like Google Docs) bring traditional word-processing to the web, Substance focusses on content, by leaving the layout part to the system, not the user. Because of the absence of formatting utilities, it suggests structured content-oriented writing.
 
-### Custom Element Types
+### Inhaltsorientiertes Editieren
+
+Substance Dokumente bestehen aus Content Elemementen. Während existierende Lösungen (wie Google Docs) traditionelle Textverarbeitung für das Web implementieren, konzentriert Substance sich auf rein auf den Inhalt, in dem das Layouting vom System übernommen wird und dem Benutzer diese Aufgabe bewusst abgenommen wird. Die Abwesenheit von Formatierungswerzeugen fördert struktuiertes inhalts-orientiertes Schreiben.
+
+
+### Erweiterbare Inhaltstypen
 
 Substance comes with a predefined set of element types. Out of the box you can choose from headings, text and images. However, it is easy to implement your own element types, and use it with your tailored version of the Substance Composer.
 
