@@ -2,8 +2,7 @@
 
 Die Erstellung von Inhalten sowie deren Verteilung stellt uns im digitalen Zeitalter vor eine Reihe neuer Herausforderungen. In diesem Artikel werden zunächst Anforderungen skizziert, die an moderne Publikationssysteme gestellt werden. In einem weiteren Schritt werden Lösungsansätze dargestellt, wie diese Anforderungen mit Hilfe Benutzer-orientierter Software umgesetzt werden können.
 
-Mit [Substance](http://interior.substance.io), einer offenen Plattform zur kollaborativen Erstellung und Verteilung von digitalen Inhalten möchten wir ausserdem ein Projekt vorstellen, das diese Lösungsansätze aufgreift und umsetzt. Die Entwicklung von Substance erfolgt öffentlich, finanziert wird das Projekt mittels [Crowd-Funding](http://pledgie.com/campaigns/18902). Es soll als moderne Alternative zu existierenden Publikationssystemen dienen.
-
+Mit [Substance](http://interior.substance.io), einer offenen Plattform zur kollaborativen Erstellung und Verteilung von digitalen Inhalten möchten wir ausserdem ein Projekt vorstellen, das diese Lösungsansätze aufgreift und umsetzt. Die in Linz entwickelte Software ist [Open Source](http://github.com/substance) und wird mittels [Crowd-Funding](http://pledgie.com/campaigns/18902) finanziert. Es soll schon bald als moderne Alternative zu existierenden Publikationssystemen bereitstehen.
 
 ## Anforderungen an moderne Publikationssysteme
 
@@ -36,19 +35,22 @@ In der Vergangenheit galt es Inhalte auf Papier zu drucken, während Information
 Im Rahmen der Arbeit an [Substance](http://substance.io) fanden viele Untersuchungen statt. Basierend auf diesen Recherchen möchten wir hier einige Lösungsansätze anführen, die bei der Entwicklung eines digitalen Publikationssystem wichtig sind.
 
 
-### Separate content from presentation
+### Trennung von Inhalt und Darstellung
 
-Many traditional publishing systems store rich markup (such as HTML) and thus only allow publishing in that same format, which is a serious limitation when it comes to multi-platform publishing. How would you turn an HTML document into a printable version? How would you optimize it for Ebook Readers that use special document formats (e.g. Amazon Kindle)? By storing content (plain text) and annotations separately, users gain the ability of transforming their documents into any format they need.
+Viele traditionelle Publikationssysteme speichern Text mittels spezieller Auszeichnungssprachen wie HTML. Diese Systeme sind zumeist auf eben dieses eine Ausgabeformat beschränkt, was eine große Limitierung bedeutet. Wie soll ein HTML Dokument in eine ansprechende druckbare Version umgewandelt werden? Wie sollen diese Dokumente für Ebook Reader optimiert werden, die spezielle Formate erfordern (z.B. Amazon Kindle)? Abhilfe schafft die separate Speicherung von Struktur, Plaintext und Annotationen. Dadurch können Benutzer ihre Dokumente in beliebige Ausgabeformate konvertieren.
 
-### Structured Composition
 
-By considering a document a sequence of content elements rather than one big chunk of formatted text, document editors can provide a better way of writing semantically structured content, as opposed to visually optimized layouts as we know them from traditional word-processors.
+### Strukturierte Komposition
+
+Herkömmliche Textverarbeitungssysteme betrachten Dokumente als einen durchgehenden Fluss von Text mit Formatierungen, Tabellen und zusätzlichen grafischen Elementen. Im Gegensatz dazu bestehen inhalts-orientierte Dokumente aus einer Sequenz von Inhalselementen. Das dokument wird in einzelne semantisch struktuierte Bereiche geteilt (Überschrift, Text, Bild, Tabelle etc.). Durch das Fehlen von Formattierungswerkzeugen erleichtern solche Systeme dem Benutzer die struktierte Erstellung von Inhalten.
+
 
 ![](http://interior.substance.io/images/illustrations/semantic-writing-elements.png)
 
 ### Offline Editing
 
-We've seen the drawbacks of fully web-based publishing solutions, such as high latency and data loss. It turned out that providing an offline editor can significantly improve the user experience during editing and guarantee data security. Importantly information will stay private until users synchronize their publication with a public web-server. Moreover, authors can continue editing even if there's no internet connection.
+Rein web-basierte Lösung haben oft den Nachteil langer Antwortzeiten und Datenverlust über unstabile Leitungen. Offline Editoren können die Benutzerfreundlichkeit empfindlich verbessern und zudem Datensicherheit bieten. Informationen bleiben solange privat bis der Benutzer entscheidet seine Publikation mit einem öffentlichen Webserver zu synchronisieren. Benutzer können mit dem Schreiben des Dokuments fortfahren auch wenn keine aktive Internetverbindung besteht.
+
 
 ### Support for Collaboration
 
