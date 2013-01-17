@@ -28,7 +28,7 @@ In der Vergangenheit galt es Inhalte auf Papier zu drucken und in dieser Form zu
 
 ## Lösungsansätze
 
-Im Rahmen der Arbeit an [Substance](http://substance.io) fanden viele Untersuchungen statt. Basierend auf diesen Recherchen möchten wir hier einige Lösungsansätze anführen, die bei der Entwicklung eines digitalen Publikationssystem wichtig sind.
+Basierend auf den Recherchen und Erfahrungen im Rahmen des [Substance](http://substance.io) Projekts möchten wir hier einige Lösungsansätze anführen, die bei der Entwicklung eines digitalen Publikationssystem dienlich sind.
 
 ### Trennung von Inhalt und Präsentation
 
@@ -59,11 +59,11 @@ Substance ist ein offenes Software-System zur Erstellung und Publikation digital
 
 ![](http://interior.substance.io/images/campaign/substance.png)
 
-Das Projekt folgt der Idee von Freiem Wissen, und eignet sich beispielsweise für die Erstellung und Veröffentlichung von Public Domain Texten.
+Das Projekt folgt der Idee von freiem Wissen, und eignet sich beispielsweise für die Erstellung und Veröffentlichung von Public Domain Texten.
 
 ### Open Source
 
-Substance besteht aus mehreren Komponenten die fast gänzlich frei als [Open Source Module](http://interior.substance.io/modules/composer.html) zur Verfügung stehen. Diese Module werden unter der Open Souce MIT Lizenz veröffentlicht und können von jeder Person weiterentwickelt werden. Ziel ist es Substance als offene Plattform zu etabliern. Die Infrastruktur kann ohne Einschränkungen genutzt werden und ermöglicht die Entwicklung von spezialiserten Anwendungen (z.B. für Universitäten oder im medizinischen Bereich).
+Substance besteht aus mehreren Komponenten die frei als [Open Source Module](http://interior.substance.io/modules/composer.html) zur Verfügung stehen. Diese Module werden unter der Open Souce MIT Lizenz veröffentlicht und können von jeder Person weiterentwickelt werden. Ziel ist es Substance als offene Plattform zu etabliern. Die Infrastruktur kann ohne Einschränkungen genutzt werden und ermöglicht die Entwicklung von spezialiserten Anwendungen (z.B. für Universitäten oder im medizinischen Bereich).
 
 ### Inhalte als Daten
 
@@ -72,7 +72,7 @@ Substance behandelt **Inhalte als Daten**, wodurch sie auch für die elektronsis
 
 ### Inhaltsorientiertes Editieren
 
-Substance Dokumente bestehen aus Content Elemementen. Während existierende Lösungen (wie Google Docs) traditionelle Textverarbeitung für das Web implementieren, konzentriert Substance sich ausschließlich auf den Inhalt, in dem das Layouting vom System übernommen wird und dem Benutzer diese Aufgabe bewusst abgenommen wird. Die Abwesenheit von Formatierungswerzeugen fördert zudem strukturiertes inhalts-orientiertes Schreiben.
+Substance Dokumente bestehen aus Inhalts-Elementen. Während existierende Lösungen (wie Google Docs) traditionelle Textverarbeitung für das Web implementieren, konzentriert Substance sich ausschließlich auf den Inhalt, in dem das Layouting vom System übernommen  und dem Benutzer diese Aufgabe bewusst abgenommen wird. Die Abwesenheit von Formatierungswerzeugen fördert zudem strukturiertes inhalts-orientiertes Schreiben.
 
 
 ### Erweiterbare Inhaltstypen
@@ -82,7 +82,7 @@ Substance stellt eine Reihe vordefinierter Inhaltstypen zur Verfügung. Benutzer
 
 # Unterstützen Sie die Entwicklung von Substance
 
-Nach einer zweijährigen experimentellen Phase konzentriert sich das Team um Substance derzeit darauf eine stabile und funktional vollständige Version zu veröffentlichen. Dazu wurde eine Roadmap erstellt und eine Crowd-Funding Kampagne gestartet um die Entwicklungskosten zu decken.
+Nach einer zweijährigen experimentellen Phase konzentriert sich das Team um Substance derzeit darauf eine stabile, ausgereifte Version zu veröffentlichen. Dazu wurde ein Zeitplan erstellt und eine Crowd-Funding Kampagne gestartet um die Entwicklungskosten zu decken:
 
 http://pledgie.com/campaigns/18902
 
