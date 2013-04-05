@@ -2,7 +2,7 @@
 
 ## Michael Aufreiter
 
-Michael is committed to the idea of open digital publishing by considering content as data and seperating it from presentation. Back in 2012 he kicked off Substance in order to verify that idea. Oh noes.
+Michael is committed to the idea of open digital publishing by considering content as data and seperating it from presentation. Back in 2012 he kicked off Substance in order to verify that idea. Oh noes. Test.
 
 Focus:
 
