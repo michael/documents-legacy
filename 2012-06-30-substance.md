@@ -8,7 +8,7 @@ Substance has very modular architecture. Lower level modules such as our rich te
 
 
 ### Surface
-Surface is intended to be an extensible low-level interface for rich text editing. It doesn't introduce any UI components, but an API for managing user-defined text annotations. For an implementation of a ritch text editor and several examples please check the Substance Sandbox (http://sandbox.substance.io).
+Surface is intended to be an extensible low-level interface for rich text editing. It doesn't introduce any UI components, but an API for managing user-defined text annotations. For an implementation of a ritch text editor and several examples please check the Substance Sandbox.
 
 
 ### Library
