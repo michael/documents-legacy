@@ -1,6 +1,6 @@
 # Substance
 
-Substance is a free and open source distributed document management system designed for collaboration and making sense of digital information in a new way.
+[Substance](http://substance.io) is a free and open source distributed document management system designed for collaboration and making sense of digital information in a new way.
 
 ## Modules
 
