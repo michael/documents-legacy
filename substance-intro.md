@@ -35,13 +35,19 @@ Behind the scenes the Substance is mainly composed by a stack of open source mod
 
 ## Substance in the wild
 
-We're just getting started.
-
-### eLife Lens
+Substance is pretty young. However, it can already be found in the wild. In collaboration with UC Berkeley graduate student Ivan Grubisic and eLife, we created an interactive document viewer for scientific content, [eLife Lens](http://lens.elifesciences.org). It is designed around a custom implementation of the Substance document format, the [Lens Article](http://github.com/elifesciences/lens-article).
 
 ![](http://backbonejs.org/docs/images/lens.png)
 
 eLife Lens is a novel system for writing on the web. Instead of tying the content to a presentation specific format, Lens uses the Substance Document Model in order to make the links that exist within a document easy to navigate.
+
+## Future
+
+We'll be relaunching Substance.io with a reference implementation of a minimalistic collaborative editor, based on our new set of well-tested components. We're quite close, however we'll take enough time, so the next time we launch a new version Substance.io
+
+## Work with us
+
+Do you see Substance work for your use-case? Contact us at info@substance.io. We're happy to discuss options how Substance can be integrated with your application use-cases.
 
 ## Thanks
 
