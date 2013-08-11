@@ -14,6 +14,6 @@ Surface is intended to be an extensible low-level interface for rich text editin
 
 ### Library
 
-The Substance Library is different from traditional libraries, in that there are no books stored but digital documents that are always up-to-date. Everyone with permission can read and write documents at any time. Open 24/7.
+The [Substance Library](http://github.com/substance/library) is different from traditional libraries, in that there are no books stored but digital documents that are always up-to-date. Everyone with permission can read and write documents at any time. Open 24/7.
 
 
